@@ -1,0 +1,33 @@
+----
+#contents
+----
+文責：[[ガッツ>個人ページ/ガッツ]]
+*ブレインストーミング (更新：09/10/07)
+ブレインストーミングとは、連想を行うにあたり集団で行うことによって、相互交錯の連鎖反応や発想の誘発を期待する技法である。~
+人数に制限はないが5〜7名、場合によっては10名程度が好ましく、議題は予め周知しておくべきである。~
+#ref(ブレストルール.jpg,nolink)
+↑http://bizmakoto.jp/bizid/articles/0703/20/news143.htmlより抜粋
+&size(25){この方法は何度も練習しないと身に付かないので注意！！};~
+#ref(ブレスト.jpg,nolink)
+↑http://lifehacking.jp/2007/08/brainstorming-is-dead/より抜粋
+
+
+参考webページ：http://carecopain.gooside.com/bs-hou.html#02　　~
+　　　　　　　　http://www.ritsumei.ac.jp/~yamai/kj.htm　　　~
+　　　　　　　　http://lifehacking.jp/2007/08/brainstorming-is-dead/　　
+
+
+
+
+
+*ＵＳＩＴ (更新：09/10/07)
+
+やさしいＵＳＩＴによる創造的問題解決の方法
+中川  徹  (大阪学院大学)  ：http://www.osaka-gu.ac.jp/php/nakagawa/TRIZ/jpapers/2005Papers/NakaTRIZUSITSeminar0502/NakaTII050225-USIT.html
+
+学生の学生によるTRIZホームページ：http://www.ogjc.osaka-gu.ac.jp/php/nakagawa/TRIZ/TRIZ-st/index.htm
+
+
+
+**コメント欄 
+#comment

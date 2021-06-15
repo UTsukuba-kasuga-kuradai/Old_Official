@@ -1,0 +1,15 @@
+#
+# PyukiWiki Resource file (Japanese EUC)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: sbookmark.ja.txt,v 1.7 2007/07/15 07:40:09 papu Exp $
+#
+
+# comment.inc.pl
+sbookmark_plugin_yourname=あなたの名前:
+sbookmark_plugin_button=ブックマーク!
+sbookmark_plugin_title=ページタイトル:
+sbookmark_plugin_url=ページアドレス:
+sbookmark_plugin_comment=一行コメント:
+sbookmark_plugin_err=記載事項が不足しています
+sbookmark_plugin_urlerr=URLが正しくありません
+sbookmark_plugin_urlnot=URLが存在しません

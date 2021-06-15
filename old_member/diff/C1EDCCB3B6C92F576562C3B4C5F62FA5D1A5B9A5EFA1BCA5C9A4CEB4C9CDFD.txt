@@ -1,0 +1,24 @@
+=-----
+=
+=現在、使用しているID・Passwordの一覧
+=
+=-全体向け
+=ID:kuradai　Password:azumasan
+=--外部向けWebページ一般ユーザ
+=--Wiki
+=
+=-Web担当向け
+=--www.kasuga-campus.jpユーザ
+=危ないので載せられません
+=--外部向けWebページ管理者
+=危ないので載せられません
+=--www.kasuga-campus.jp　MySQLユーザ
+=危ないので載せられません
+=--Google Apps管理者
+=危ないので載せられません
+=--co.ccアカウント
+=危ないので載せられません
+=--Yahoo Groups管理者
+=危ないので載せられません
++--STB関連情報
++危ないので載せられません

@@ -1,0 +1,77 @@
+ #norelated
+ #setlinebreak
+ 
+ * メーリングリストの使い方 [#d400fa10]
+ 送りたいグループのメーリングリストのアドレスに通常通りメールを送るだけです。グループに所属している全員の u.tsukuba.ac.jp のメールアドレスに送ったメールが届きます。
+ 
+ ** 送信できる条件 [#g401dce6]
+ + %%送信元のメールアドレスが送信先のグループに所属している%%
+ + %%@kuradai.org アドレスから送信している%%
+ 
+ %%の''いずれか''を満たしていることが必要です。u.tsukuba.ac.jp のメールアドレスから異なる学年に送信するなどの際は条件1を満たさないことがあるので注意してください（その場合でも kuradai.org アドレスから送信すれば大丈夫です）。%%
+ 
+ ''2015/5/8'' 誰でも送信できるように設定を変更しました。
+ 
+ * ML一覧 [#iba7cd14]
+ 以下のメーリングリストにメールを送信する際は、@kuradai.orgのメールアドレスから送信して下さい。
+ ~
+ 現在有効なメーリングリストのアドレス一覧です。メーリングリストに含まれていないメールアドレスがありましたら、総務局Web担当までご連絡ください。
+ ~
+ また、下記以外で必要なメーリングリストがある場合は作成しますので、総務局Web担当までご連絡ください。
+ ** 全体 [#l649cd4a]
+ kasuga.all@kuradai.org kasuga.15とkasuga.16
+ kasuga.16@kuradai.org
+ kasuga.15@kuradai.org
+ kasuga.14@kuradai.org
+ kasuga.13@kuradai.org
+ kasuga.12@kuradai.org
+ kasuga.11@kuradai.org
+ kasuga.10@kuradai.org
+ kasuga.alumni@kuradai.org (kasuga.14 - 10 の既にクラ代を引退した先輩)
+ 
+ ** 知識情報・図書館学類 [#lcb0543a]
+-klis.all@kuradai.org
++
+ klis.16@kuradai.org
+ klis.15@kuradai.org
+ klis.14@kuradai.org
+ klis.13@kuradai.org
+ klis.12@kuradai.org
+ klis.11@kuradai.org
+ klis.10@kuradai.org
+ 
+ ** 情報メディア創成学類 [#m805cb34]
+-mast.all@kuradai.org
++
+ mast.16@kuradai.org
+ mast.15@kuradai.org
+ mast.14@kuradai.org
+ mast.13@kuradai.org
+ mast.12@kuradai.org
+ mast.11@kuradai.org
+ mast.10@kuradai.org
+ 
+ ** 各局 [#d3340d4a]
+ 局ごとのメーリングリストは必要に応じて追加しています。
+ ***総務局 [#wf76001f]
+ somu.all@kuradai.org （現在は15が入っています）
+ somu.13@kuradai.org
+ somu.14@kuradai.org
+ somu.15@kuradai.org
+ 
+ ***生活局 [#k71adb6e]
+ seikatsu.all@kuradai.org （現在は13と14が入っています）
+ seikatsu.13@kuradai.org
+ seikatsu.14@kuradai.org
+ 
+ *** 知識教育局 [#u7274697]
+ kyouiku.klis.all@kuradai.org （現在は14が入っています）
+ kyouiku.klis.13@kuradai.org
+ kyouiku.klis.14@kuradai.org
+ 
+ *** 創成教育局 [#b0c17213]
+ kyouiku.mast.all@kuradai.org （現在は15と16が入っています）
+ kyouiku.mast.13@kuradai.org
+ kyouiku.mast.14@kuradai.org
+ kyouiku.mast.15@kuradai.org
+ kyouiku.mast.16@kuradai.org

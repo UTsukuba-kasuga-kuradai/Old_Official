@@ -1,0 +1,84 @@
+#
+# PyukiWiki Resource file (English)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: resource.en.txt,v 1.65 2007/07/15 07:40:09 papu Exp $
+#
+
+resource_loaded=1
+
+top=Top
+reload=Reload
+help=Help
+listbutton=View
+sitemapbutton=Site Map
+newpagebutton=New
+editbutton=Edit
+admineditbutton=Freeze
+difftitle=Diff
+diffbutton=Diff
+renamebutton=Rename
+rssbutton=RSS
+rss20button=RSS 2.0
+atombutton=ATOM
+opmlbutton=OPML
+attachbutton=Attach
+recentbutton=History
+recentchanges=Update History
+settingbutton=Setting
+rulepage=FormatRule
+
+closebutton=Close
+backbutton=Back
+
+prevbutton=Prev
+nextbutton=Next
+
+searchthispage=Search This Page
+
+profile_page=Profile
+comment_page=Comments
+
+editthispage=Editting This Page.
+admineditthispage=Editting This Page.(Need Password)
+
+continuereading=Continue Reading:
+
+cantchange=Can not modify this page.
+deleted=deleted.
+notfound=Not Found.
+invalidname=Invalid Name.
+
+passworderror=Invalid Password
+changepasswordbutton=Password change
+oldpassword=Old Password
+newpassword=New Password
+newpassword2=New Password(Reinput)
+passwordmismatcherror=Password Mismatch.
+passwordchanged=Password changed.
+changepassword=Password change
+
+adminbutton=Admin
+
+# for admin password input
+admin_passwd_prompt_title=Enter administrator password.
+admin_passwd_prompt_msg=Password:
+admin_passwd_prompt_error=Invalid Password
+admin_passwd_button=Send
+
+
+# for feauture, authble wiki
+auth_readfobidden=Deny for read this page
+
+# write
+auth_writefobidden=Deny for write this page
+
+# search.inc.pl
+searchpage=Search Word
+searchbutton=Search
+searchand=AND
+searchor=OR
+
+# sub date
+date_ampm_en=am,pm
+date_weekday_en=Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday
+date_weekdaylength_en=3

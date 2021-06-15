@@ -1,0 +1,16 @@
+#
+# PyukiWiki Resource file (English)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: deletecache.en.txt,v 1.22 2007/07/15 07:40:09 papu Exp $
+#
+
+# deletecache.inc.pl
+deletecache_plugin_title=Delete Cache Directory
+deletecache_plugin_deleted=Deleted
+deletecache_plugin_error=Can't delete
+
+deletecache_plugin_listmsg=Please choose the extension to delete.
+deletecache_plugin_files=File
+deletecache_plugin_btn_delete=Delete
+deletecache_plugin_msg_deleted=The following files were deleted.
+deletecache_plugin_btn_back=Return

@@ -1,0 +1,33 @@
+#
+# PyukiWiki Resource file (English)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: setting.en.txt,v 1.31 2007/07/15 07:40:09 papu Exp $
+#
+
+# setting.inc.pl
+plugin_setting_title=Setting
+plugin_setting_list=gzip,style,fontsize,popup,savename
+plugin_setting_button=Change
+
+plugin_setting_gzip=GZIP Compress
+plugin_setting_gzip_check=sub { return -f "$::explugin_dir/gzip.inc.cgi"; }
+plugin_setting_gzip_list=0:none,1:Compress
+plugin_setting_gzip_default=1
+
+plugin_setting_style=Style
+plugin_setting_style_check=sub{my $d;my $c=0;if(opendir(RD,$::skin_dir)){while($d=readdir(RD)){if($d=~/^(.+)\.skin(?:\.$::lang)?\.cgi/){$c++;}}closedir(RD);}$c=$c>1 && $::use_SkinSel eq 1 ? 1 : 0;};
+plugin_setting_style_list=sub{my $d;my @list=();if(opendir(RD,$::skin_dir)){while($d=readdir(RD)){if($d=~/^(.+)\.skin(?:\.$::lang)?\.cgi/){push(@list,$1);}}closedir(RD);}@list=sort @list;};
+plugin_setting_style_default=sub{$::skin_name};
+
+plugin_setting_fontsize=Font Size
+plugin_setting_fontsize_list=0:Default,1:Big,2:Small
+plugin_setting_fontsize_default=0
+
+plugin_setting_savename=Save your name for article etc..
+plugin_setting_savename_list=0:No Save,1:Save
+plugin_setting_savename_default=0
+
+
+plugin_setting_popup=Popup link place
+plugin_setting_popup_list=0:Link to same browser,1:Popup Link
+plugin_setting_popup_default=sub{$::use_popup eq 0 ? 0 : 1};

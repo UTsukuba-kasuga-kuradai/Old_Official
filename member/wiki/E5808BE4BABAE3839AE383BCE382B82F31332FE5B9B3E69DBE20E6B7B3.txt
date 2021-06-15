@@ -1,0 +1,37 @@
+[[個人ページ]]
+
+#setlinebreak
+
+CENTER:''SIZE(20){http://matsunoki.github.io/}''
+
+#contents
+
+総合&size(20){&counter;};人 
+今日&size(20){&counter(today);};人 
+
+
+*誰 [#oa13997f]
+
+: 本名|~平松 淳(まこと)
+
+: twitter|~@hmkt_
+
+: 生年月日|~1995年2月27日
+
+: 出身|~神奈川県→千葉県→栃木県→茨城県
+
+: 高校|~栃木県立鹿沼高等学校
+
+: アルバイト|~
+いばしん個別指導学院研究学園校(講師)=塾講師楽しいけど儲からなかった&br;
+図書館情報学図書館(カウンター)=引退しました&br;
+intronworks(software engineer)=バイト募集中(http://intronworks.jp)&br;
+ohma株式会社=つよい
+
+: 連絡先|~s1311536あっとつくばどっとえーしーどっとじぇーぴー&br;
+
+*コメント [#l226301e]
+- hoge -- [[hoge]] &new{2014-11-08 (土) 18:16:36};
+- <script>alert</script> --  &new{2014-11-08 (土) 18:17:03};
+
+#comment

@@ -1,0 +1,188 @@
+#
+# PyukiWiki Resource file (Japanese EUC)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: servererror.ja.txt,v 1.51 2007/07/15 07:40:09 papu Exp $
+#
+
+# servererror.inc.pl
+# It referred to http://www.studyinghttp.net/status_code
+
+## common message
+servererror_plugin_commonmsg=サーバーの障害と思われる場合は、$1[[サーバー管理者>$ENV{SERVER_ADMIN}]]までご連絡ください。
+servererror_plugin_modifier_mail=[[ウェブ管理者>$ENV{modifier_mail}]]、または
+#servererror_plugin_rfcurl=http://www.ietf.org/rfc/rfc$1.txt
+servererror_plugin_rfcurl=http://www.studyinghttp.net/cgi-bin/rfc.cgi?$1
+servererror_plugin_rfcmsg=参考：[[RFC$1>$2]]
+servererror_plugin_errormessage=エラーメッセージの内容：
+
+## 400 Bad Request
+servererror_plugin_400_header=Bad Request
+servererror_plugin_400_title=不正な要求です
+servererror_plugin_400_msg=このサーバーが理解できない要求を送信されました。
+
+## 401 Unauthorized
+servererror_plugin_401_header=Unauthorized
+servererror_plugin_401_title=認証が必要です
+servererror_plugin_401_msg=サーバーは"''$ENV{REDIRECT_URL}''"へのアクセス許可を確認できませんでした。\nあなたが間違った証明書（間違ったパスワードなど）を送信したか、またはお使いのブラウザが要求される証明書の提供手段を知らないのでしょう。
+servererror_plugin_401_rfc=2617
+
+## 402 Payment Required (
+servererror_plugin_402_header=Payment Required
+servererror_plugin_402_title=このコンテンツは有料です
+servererror_plugin_402_msg=要求された"''$ENV{REDIRECT_URL}''"は''有料コンテンツです''。
+
+## 403 Forbidden
+servererror_plugin_403_header=Forbidden
+servererror_plugin_403_title=アクセスが許可されていません
+servererror_plugin_403_msg=要求された"''$ENV{REDIRECT_URL}''"へのアクセス権限がありません。\nインデックスドキュメントが存在しないか、ディレクトリ・ファイルの読み込みが許可されていません。 
+
+## 404 Not found
+servererror_plugin_404_header=Not found
+servererror_plugin_404_title=ファイルまたはオブジェクトがありません
+servererror_plugin_404_msg=要求された''$ENV{REDIRECT_URL}''は本サーバでは見つかりませんでした。\n[[リンク元のWebページ>$ENV{HTTP_REFERER}]]が更新されていなければ、[[リンク元のWebページが>$ENV{HTTP_REFERER}]]管理者に通知して下さい。\nもし手入力で URL を入力した場合は、綴りを確認して再度お試し下さい。
+
+## 405 Method Not Allowed
+servererror_plugin_405_header=Method Not Allowed
+servererror_plugin_405_title=メソッドが許可されていません
+servererror_plugin_405_msg=要求された"''$ENV{REDIRECT_URL}''"では''$ENV{REDIRECT_REQUEST_METHOD}''メソッドは許可されていません。
+
+## 406 Not Acceptable
+servererror_plugin_406_header=Not Acceptable
+servererror_plugin_406_title=受理できません
+servererror_plugin_406_msg=要求されたリソースの適切な表現がサーバーでは理解できませんでした。
+
+## 407 Proxy Authentication Required
+servererror_plugin_407_title=Proxy Authentication Required
+servererror_plugin_407_header=プロキシサーバーへの認証が必要です
+servererror_plugin_407_msg=サーバーは"''$ENV{REDIRECT_URL}''"へのアクセス許可を確認できませんでした。\nあなたが間違った証明書（間違ったパスワードなど）を送信したか、またはお使いのブラウザが要求される証明書の提供手段を知らないのでしょう。
+
+## 408 Request Time-out
+servererror_plugin_408_header=Request Time-out
+servererror_plugin_408_title=要求が時間切れになりました
+servererror_plugin_408_msg=サーバーが混雑している等の理由ですべての要求が受理できませんでした。
+
+# 409 Conflict
+servererror_plugin_409_header=Conflict
+servererror_plugin_409_title=要求が矛盾しています
+servererror_plugin_409_msg=要求された"''$ENV{REDIRECT_URL}''"では''$ENV{REDIRECT_REQUEST_METHOD}''メソッドによる要求が矛盾しています。
+
+## 410 Gone
+servererror_plugin_410_header=Gone
+servererror_plugin_410_title=リソースはもう利用できなくなっています！
+servererror_plugin_410_msg=要求された "''$ENV{REDIRECT_URL}''" はすでにサーバーで利用できなくなっており、また転送すべきアドレスもありません。
+
+## 411 Length Required
+servererror_plugin_411_header=Length Required
+servererror_plugin_411_title=不正な Content-Length です
+servererror_plugin_411_msg=$ENV{REDIRECT_REQUEST_METHOD}メソッドによる要求には、正しい Content-Length ヘッダが必要です。
+
+## 412 Precondition Failed
+servererror_plugin_412_header=Precondition Failed
+servererror_plugin_412_title=前提条件が満たされていません
+servererror_plugin_412_msg="''$ENV{REDIRECT_URL}''"への要求の前提条件は明確な評価に失敗しました。
+
+## 413 Request Entity Too Large
+servererror_plugin_413_header=Request Entity Too Large
+servererror_plugin_413_title=要求がおおきすぎます
+servererror_plugin_413_msg=$ENV{REDIRECT_REQUEST_METHOD}メソッドは送信されたデータを認めていないか、データ量が許容限界を超えています。
+
+## 414 Request-URI Too Large
+servererror_plugin_414_header=Request-URI Too Large
+servererror_plugin_414_title=要求されたURIが長すぎます
+servererror_plugin_414_msg=要求に含まれる URI の長さがこのサーバーの許容限界を超えているため、処理できません。
+
+## 415 Unsupported Media Type
+servererror_plugin_415_header=Unsupported Media Type
+servererror_plugin_415_title=対応されていないメディアの種類です
+servererror_plugin_415_msg=要求に含まれるメディアの種類にはサーバーは対応していません。
+
+## 416 Requested range not satisfiable
+servererror_plugin_416_header=Requested range not satisfiable
+servererror_plugin_416_title=Rangeリクエストが不正です
+servererror_plugin_416_msg=要求された"''$ENV{REDIRECT_URL}''"へのRangeリクエストが不正です。
+servererror_plugin_416_rfc=2616
+
+## 417 Expectation Failed
+servererror_plugin_417_header=Expectation Failed
+servererror_plugin_417_title=Expectリクエストが受理できません
+servererror_plugin_417_msg=受理されたExpectリクエストが不正なため、サーバーで受理することができません。
+servererror_plugin_417_rfc=2616
+
+## 418 I'm a teapot
+servererror_plugin_418_header=I'm a teapot
+servererror_plugin_418_title=ティーポットのコーヒーがあふれました
+servererror_plugin_418_msg=エラーの詳細はRFC2324 HTCPCP/1.0で確認して下さい。
+servererror_plugin_418_rfc=2324
+
+## 422 Unprocessable Entity
+servererror_plugin_422_header=Unprocessable Entity
+servererror_plugin_422_title=Unprocessable Entity
+servererror_plugin_422_rfc=2518
+
+## 423 Locked
+servererror_plugin_423_header=Locked
+servererror_plugin_423_title=Locked
+servererror_plugin_423_rfc=2518
+
+## 424 Failed Dependency
+servererror_plugin_424_header=Failed Dependency
+servererror_plugin_424_title=Failed Dependency
+servererror_plugin_424_rfc=2518
+
+## 426 Upgrade Required
+servererror_plugin_426_header=Upgrade Required
+servererror_plugin_426_title=TLSがないためにリクエストを完了できませんでした。
+servererror_plugin_426_msg=セキュアな接続を必要とするにはTLSプロトコルが必要です。
+servererror_plugin_426_rfc=2817
+
+## 500 Internal Server Error
+servererror_plugin_500_header=Internal Server Error
+servererror_plugin_500_title=Server Error!
+servererror_plugin_500_msg=サーバ内部で障害が発生し、 リクエストに応えることができませんでした。 \n\nサーバーは内部エラーに遭遇し、リクエストを終了することができませんでした。サーバーは過負荷をかけられます。あるいは、CGIスクリプトにおけるエラーがありました。
+
+## 501 Not Implemented
+servererror_plugin_501_header=Not Implemented
+servererror_plugin_501_title=要求を処理できません。
+servererror_plugin_501_msg=要求された"''$ENV{REDIRECT_URL}''"では"''$ENV{REDIRECT_REQUEST_METHOD}''"メソッドの処理ができません。
+
+
+## 502 Bad Gateway
+servererror_plugin_502_header=Bad Gateway
+servererror_plugin_502_title=不正なゲートウェイです
+servererror_plugin_502_msg=プロキシサーバーは、上流のサーバーより不正な応答を受け取りました。
+
+## 503 Service Unavailable
+servererror_plugin_503_header=Service Unavailable
+servererror_plugin_503_title=サービスが利用できません
+servererror_plugin_503_msg=サーバーはメンテナンスのため休止しているか、能力の問題があるため、一時的に要求を処理することができません。\n時間をおいて再度お試しください。
+
+## 504 Gateway Time-out
+servererror_plugin_504_header=Gateway Time-out
+servererror_plugin_504_title=ゲートウェイのレスポンスが完了していません
+servererror_plugin_504_msg=プロキシサーバーは、上流のサーバーへリクエストを送信しましたが、レスポンスを受信できませんでした。
+
+## 505 HTTP Version not supported
+servererror_plugin_505_header=HTTP Version not supported
+servererror_plugin_505_title=要求されたHTTPプロトコルバージョンを使用できません
+servererror_plugin_505_msg=要求されたHTTPプロトコルバージョンはサーバーで解釈できませんでした。
+
+## 506 Variant Also Negotiates
+servererror_plugin_506_header=Variant Also Negotiates
+servererror_plugin_506_title=内部配置上のエラー
+servererror_plugin_506_rfc=2295
+
+## 507 Insufficient Storage
+servererror_plugin_507_header=Insufficient Storage
+servererror_plugin_507_title=Insufficient Storage
+servererror_plugin_507_rfc=2518
+
+## 510 Not Extended
+servererror_plugin_510_header=Not Extended
+servererror_plugin_510_title=要求するための方針が要求に含まれていません
+servererror_plugin_510_msg=サーバーはクライアントが拡張されたリクエストを発行することができません。
+servererror_plugin_510_rfc=2774
+
+## 999 Not defined error message
+servererror_plugin_999_header=Not defined error message
+servererror_plugin_999_title=エラーメッセージが定義されていません
+servererror_plugin_999_msg=不明なエラーが発生しました。

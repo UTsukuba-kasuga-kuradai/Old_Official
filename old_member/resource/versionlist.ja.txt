@@ -1,0 +1,28 @@
+#
+# PyukiWiki Resource file (Japanese EUC)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: versionlist.ja.txt,v 1.47 2007/07/15 07:40:09 papu Exp $
+#
+
+# versionlist.inc.pl
+versionlist_plugin_title=構成ファイルのバージョン一覧
+versionlist_plugin_pkgname=パッケージ名
+versionlist_plugin_version=バージョン
+versionlist_plugin_filename=CVSファイル名
+versionlist_plugin_rev=CVSリビジョン
+versionlist_plugin_date=CVSコミット日時
+versionlist_plugin_basic=基本モジュール
+versionlist_plugin_module=Perlモジュール
+versionlist_plugin_plugin=プラグイン
+versionlist_plugin_explugin=拡張プラグイン
+versionlist_plugin_resource=リソース
+versionlist_plugin_skin=スキン
+versionlist_plugin_css=スタイルシート
+versionlist_plugin_js=JavaScript
+versionlist_plugin_plugintype=プラグインの種類・状況
+versionlist_plugin_plugintype_YukiWiki=YukiWikiプラグイン
+versionlist_plugin_plugintype_PyukiWiki=PyukiWikiプラグイン
+versionlist_plugin_plugintype_PyukiWikiEx_OK=PyukiWiki拡張プラグイン(使用中)
+versionlist_plugin_plugintype_PyukiWikiEx_NG=PyukiWiki拡張プラグイン(未使用)
+versionlist_plugin_pluginmethod=メソッド
+versionlist_plugin_unknown=不明

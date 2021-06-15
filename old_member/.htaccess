@@ -1,0 +1,86 @@
+######################################################################
+# Apache .htaccess for PyukiWiki
+# $Id: .htaccess,v 1.55 2007/07/15 07:40:08 papu Exp $
+# "PyukiWiki" version 0.1.7 $$
+######################################################################
+
+DirectoryIndex nph-index.cgi index.cgi wiki.cgi pyukiwiki.cgi index.php index.html index.htm
+
+<FilesMatch "\.(ini\.cgi|pl|txt)$">
+	Order allow,deny
+	Deny from all
+</FilesMatch>
+
+<FilesMatch "^robots\.txt$">
+	Order deny,allow
+	Allow from all
+</FilesMatch>
+
+<FilesMatch "^\.ht">
+	Order allow,deny
+	Deny from all
+</FilesMatch>
+
+## If using non extension cgi script, please comment out.
+## example: using urlhack.inc.cgi + $use_path_info=1
+#<FilesMatch "^wiki$">
+#</FilesMatch>
+
+# Authentication to this directory with basic-auth
+# needs 'AllowOverride AuthConfig' at httpd.conf
+AuthType Basic
+AuthName      "Authentication required"
+AuthUserFile  /home/kasuga-campus/public_html/old_member/.htpasswd
+AuthGroupFile /dev/null
+Require       valid-user
+
+## sample of rewrite engine
+#RewriteEngine on
+#RewriteBase /
+#
+#RewriteCond %{REQUEST_URI} !^/(attach|cache|image|skin)
+#RewriteRule ^\?(.*)$ /cgi-bin/w?$1 [L]
+#RewriteCond %{REQUEST_URI} !^/(attach|cache|image|skin)
+#RewriteRule ^(.+)/$ /cgi-bin/w/$1 [L]
+#RewriteCond %{REQUEST_URI} !^/(attach|cache|image|skin)
+#RewriteRule ^$ /cgi-bin/w [L]
+
+## use servererror.inc.pl, comment delete it.
+#ErrorDocument 400 /nph-index.cgi?cmd=servererror
+#ErrorDocument 401 /nph-index.cgi?cmd=servererror
+#ErrorDocument 402 /nph-index.cgi?cmd=servererror
+#ErrorDocument 403 /nph-index.cgi?cmd=servererror
+#ErrorDocument 404 /nph-index.cgi?cmd=servererror
+#ErrorDocument 405 /nph-index.cgi?cmd=servererror
+#ErrorDocument 406 /nph-index.cgi?cmd=servererror
+#ErrorDocument 407 /nph-index.cgi?cmd=servererror
+#ErrorDocument 408 /nph-index.cgi?cmd=servererror
+#ErrorDocument 409 /nph-index.cgi?cmd=servererror
+#ErrorDocument 410 /nph-index.cgi?cmd=servererror
+#ErrorDocument 411 /nph-index.cgi?cmd=servererror
+#ErrorDocument 412 /nph-index.cgi?cmd=servererror
+#ErrorDocument 413 /nph-index.cgi?cmd=servererror
+#ErrorDocument 414 /nph-index.cgi?cmd=servererror
+#ErrorDocument 415 /nph-index.cgi?cmd=servererror
+#ErrorDocument 416 /nph-index.cgi?cmd=servererror
+#ErrorDocument 417 /nph-index.cgi?cmd=servererror
+#ErrorDocument 418 /nph-index.cgi?cmd=servererror
+#ErrorDocument 419 /nph-index.cgi?cmd=servererror
+#ErrorDocument 420 /nph-index.cgi?cmd=servererror
+#ErrorDocument 421 /nph-index.cgi?cmd=servererror
+#ErrorDocument 422 /nph-index.cgi?cmd=servererror
+#ErrorDocument 423 /nph-index.cgi?cmd=servererror
+#ErrorDocument 424 /nph-index.cgi?cmd=servererror
+#ErrorDocument 425 /nph-index.cgi?cmd=servererror
+#ErrorDocument 426 /nph-index.cgi?cmd=servererror
+#ErrorDocument 500 /nph-index.cgi?cmd=servererror
+#ErrorDocument 501 /nph-index.cgi?cmd=servererror
+#ErrorDocument 502 /nph-index.cgi?cmd=servererror
+#ErrorDocument 503 /nph-index.cgi?cmd=servererror
+#ErrorDocument 504 /nph-index.cgi?cmd=servererror
+#ErrorDocument 505 /nph-index.cgi?cmd=servererror
+#ErrorDocument 506 /nph-index.cgi?cmd=servererror
+#ErrorDocument 507 /nph-index.cgi?cmd=servererror
+#ErrorDocument 508 /nph-index.cgi?cmd=servererror
+#ErrorDocument 509 /nph-index.cgi?cmd=servererror
+#ErrorDocument 510 /nph-index.cgi?cmd=servererror

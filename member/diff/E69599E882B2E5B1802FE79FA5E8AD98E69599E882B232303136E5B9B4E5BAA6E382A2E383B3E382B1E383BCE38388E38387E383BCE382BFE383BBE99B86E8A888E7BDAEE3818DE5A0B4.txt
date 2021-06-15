@@ -1,0 +1,151 @@
+ [[知識教育局]]
+ #contents
+ ----
+ #br
+ 
+ *更新報告はこちらに [#t01a4e90]
+ #comment(,below)~
+ 
+ **このページについて [#bab56dcf]
+ 授業環境アンケートのページ@2016
+ 
+ *アンケートを配る時に言うべきこと [#qcb1214a]
+ -１：授業環境アンケートは授業の感想とかを調べて、先生との会議の資料になるよ
+ -２：集計結果は春にＫＬＣに置くよ
+ -３：アンケートへの回答は任意です。答えない・途中でやめるもOK
+ 
+ 
+ *教育局用メールアドレス [#g287753a]
+ kasuga.kyouiku@gmail.com
+ 
+ *授業環境アンケート [#s3479574]
+-&color(red){ファイル名は};
+-&size(24){17_haru(or fall)_grade(1or2or3(_sigen or kagaku or system)_name.xls)};
++
++&size(24){&color(red){ファイル名は};};
++&br;
++&size(24){&color(red){17_haru(or fall)_grade(1or2or3(_sigen or kagaku or system)_name.xls)};};
++&br;&br;
++ex)&color(blue){17_haru_2_ueta.xls};
++&br;
++
+ **テンプレ(仮) [#dcc00cd9]
+ #ref(template_CABC_1-2.xls)
+ 
+ *春AB [#q3df655e]
+ 
+ **赤入れ前 [#p357051e]
+ #ref(2016春AB_2_赤入れ前_aoi.xls)
+ #ref(2016springAB3(manage)_fumiya_赤入れ前.xls)
+ #ref(2016-spring-AB 3nen(kagaku)ueta.xlsx)
+ #ref(2016_springAB_1nen_赤入れ前_ami.xls)
+ #ref(3springABsys.by.takuma.aka(1).xls)
+ 
+ **赤入れ後 [#yafe6279]
+ #ref(2016-spring-AB 3nen(kagaku)ueta.xlsx)
+ #ref(2016springAB3(manage)_fumiya_赤入れ後.xls)
+ #ref(2016春AB_2_赤入れ後_aoi.xls)
+ #ref(2016_springAB_1nen_akaire_ami.xls)
+ #ref(3springABsys.by.takuma.aka(2).xls)
+ 
+ **テンプレ [#tb912280]
+ #ref(template_springAB.xls)
+ #ref(2016_spring_3_tenpre.xlsx)
+ 
+ **集計結果 [#tb912280]
+ #ref(2016_springAB_1nen_ami.xls)
+ #ref(2016springAB_2nen_fumiya.xls)
+ #ref(2016_spring_3_kagaku_ueta.xlsx)
+ #ref(2016_spring_3_sigen_ito.xlsx)
+ #ref(2016_spring_3_sys_takuma.xlsx)
+ 
+ 
+ *春C秋ABC [#lc0af253]
+ 
+ **赤入れ前 [#l60fd044]
+ #ref(2016_springC_fallABC_1nen_ami.pdf)
+ #ref(anq3_aki_system_takuma.pdf)
+ #ref(2016_spring_C_fall_AB_kagaku_ueta.pdf)
+ #ref(2016_haruCakiAB_2nen_aoi.pdf)
+ #ref(2016haruC+akiAB3_sigen_fumiya.pdf)
+ **赤入れ後 [#h9346395]
+ #ref(2016_springC_fallABC_1nen_ami　akaire.pdf) 
+ #ref(2016haruC+akiAB3_sigen_fumiya.akaire.pdf)
+ #ref(anq3_aki_system_takuma.y.pdf)
+ #ref(2016_haruCakiAB_2nen_aoi_aka.pdf)
+ #ref(2016_spring_C_fall_AB_kagaku_new_ueta.pdf)
+ **テンプレ [#sc87e85f]
+ **集計結果[#h9346395]
+ #ref(haruCakiAB_sigen_fumiya.xls)
+ #ref(16_springC_fallABC_kagaku_ueta.xlsx)
+ #ref(2016_springC_fallABC_1nen_1class_ami.xls)
+ #ref(2016_haruCakiABC_1-4_aoi.xls)
+ #ref(2016_haruCakiABC_1-2_fumiya.xls)
+ #ref(sys-haruCakiABC.takuma.xls)
+ #ref(2016_haruCakiABC_1-3_aoi.xls)
+ #ref(2016_2nen.xls)
+ *KLC設置資料 [#o18d0e24]
+ **テンプレート [#q082d98a]
+ #ref(KLCanq2015_comment3.xlsx)
+ #ref(KLCそのたのテンプレ.pdf)
+ #ref(KLCそのたのテンプレ.docx)
+ 
+ **2015年度春学期開講開始授業(赤入れ前) [#n8d8a7b5]
+ #ref(spring2015_2nd_hirai.xlsx)
+ #ref(KLCanq2016_springAB_小林.xlsx)
+ #ref(sprin2015_kyoutu_yano.xlsx)
+ #ref(spring2015_3_sigen_yano.xlsx)
+ #ref(3_kagaku_15ito.xlsx)
+ #ref(3_system_15ito.xlsx)
+ 
+ **2015年度春学期開講開始授業(最終) [#lc837f4f]
+ #ref(spring2015_all_hirai.xlsx)
+ #ref(spring2015_all_hirai.pdf)
+ 
+ **2015年度春Cモジュール開講開始授業(赤入れ前) [#n8d8a7b5]
+ #ref(KLC_春C秋ABC_2_aoi.xlsx)
+ #ref(2015_KLC_ueta.xlsx)
+ #ref(KLC設置資料2015.xlsx)
+ #ref(KLC_春C秋ABC_sigen_fumiya.xlsx)
+ 
+ **2015年度春Cモジュール開講開始授業(訂正後) [#n8d8a7b5]
+ #ref(2015_3_kyotu_ito.xlsx)
+ #ref(KLC_haruCakiABC_sigen_fumiya_aka.xlsx)
+ #ref(2015_KLC_red_ueta.xlsx)file
+ #ref(KLC_springC~fallABC_1nen_ami.xlsx)
+ #ref(KLC3nen-system-yasuda.xlsx)
+ #ref(KLC_haruCakiABC_2_aoi.xlsx)
+ 
+ **2015年度春Cモジュール開講開始授業(最終) [#n8d8a7b5]
+ #ref(KLC_2015aki_all_fumiya.xlsx)
+ 
+ 
+ 
+ 
+ *その他アンケート [#p689603f]
+ **教職アンケート [#e3047236]
+ #ref(kyousyoku_2016_hirai.xls)
+ 
+ **教職集計 [#r073aa8a]
+ #ref(kyosyoku2016_temp.xlsx)
+ #ref(kyosyoku2016_2nd.xlsx)
+ #ref(2016haru_kousyoku_shigen_yano.xlsx)
+ #ref(kyosyoku2016_1nen_kobayashi.xlsx)
+ 
+ **プログラミング演習 [#b857f92d]
+ #ref(prog_2015.aoi.xlsx)
+ 
+ **プログラミング演習集計 [#tde04373]
+ #ref(prog_2015_temp.xlsx)
+ 
+ 
+ *便利(？)情報コーナー [#bfeddff5]
+ [[2015年度版知識情報・図書館学類シラバス>http://klis.tsukuba.ac.jp/assets/files/Syllabus20150416_rev.pdf]]
+ 
+ [[2016年度版知識情報・図書館学類シラバス:http://klis.tsukuba.ac.jp/assets/files/syllabus.pdf]]
+ 
+ *コメントなど [#t01a4e90]
+ #comment(,below)~
+ - 共通と資源が逆なのと、情報経済論を直して、もう一度あげました。 -- [[矢野]] &new{2016-03-23 (水) 19:53:16};
+ - 実習は気のせいでした申し訳ないです -- [[15伊藤]] &new{2016-03-23 (水) 19:23:26};
+ - 矢野ちゃんのファイル、共通と資源が逆で実習が入っていない？　確認お願いします。 -- [[15伊藤]] &new{2016-03-23 (水) 19:17:23};

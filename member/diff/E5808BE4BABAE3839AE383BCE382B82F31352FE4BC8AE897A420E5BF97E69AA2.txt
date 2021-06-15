@@ -1,0 +1,23 @@
+ [[個人ページ]]
+ 
+ #setlinebreak
+ 
+ 総合&size(20){&counter;};人 
+ 本日&size(20){&counter(today);};人 
+ 
+ #contents
+ 
+ 
+ 
+ *自己紹介 [#b5e67765]
+ 本名: 伊藤 志暢
+ 出身: 静岡県(しがない港町)
+ 誕生日: 1996/12/3
+ エスアド:s1511484@u.tsukuba.ac.jp
+ 
+ 
+ *その他 [#y189f056]
+ 
+ 
+ *コメント [#iae08561]
+ #comment

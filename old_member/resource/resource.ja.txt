@@ -1,0 +1,88 @@
+#
+# PyukiWiki Resource file (Japanese EUC)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: resource.ja.txt,v 1.65 2007/07/15 07:40:09 papu Exp $
+#
+
+resource_loaded=1
+
+top=トップ
+reload=リロード
+help=ヘルプ
+listbutton=一覧
+sitemapbutton=サイトマップ
+newpagebutton=新規
+editbutton=編集
+admineditbutton=凍結
+difftitle=差分表示
+diffbutton=差分
+renamebutton=リネーム
+rss10button=RSS
+rss20button=RSS 2.0
+atombutton=ATOM
+opmlbutton=OPML
+attachbutton=添付
+recentbutton=最終更新
+recentchanges=更新履歴
+settingbutton=設定
+rulepage=整形ルール
+
+closebutton=閉じる
+backbutton=戻る
+
+prevbutton=前のページへ
+nextbutton=次のページへ
+
+searchthispage=このページを検索
+
+profile_page=自己紹介
+comment_page=コメント
+
+editthispage=このページを編集します
+admineditthispage=このページを編集します（パスワードが必要）
+
+continue_msg=つづきを読む
+
+cantchange=このページは変更できません。
+deleted=削除しました。
+notfound=見つかりません。
+invalidname=名前が正しくありません。
+
+passworderror=パスワードが誤っています。
+changepasswordbutton=パスワード変更
+oldpassword=古いパスワード
+newpassword=新しいパスワード
+newpassword2=新しいパスワード(再入力)
+passwordmismatcherror=新しいパスワードが一致していません。
+passwordchanged=パスワードを変更しました。
+changepassword=パスワード変更
+
+dupexplugin=以下のExPluginがオーバーライドする関数が重複しているため、PyukiWikiが停止しました。<br />使用しないほうのExPluginのファイル名を変更して、重複しないようにして下さい。<br />
+adminbutton=管理
+
+# for admin password input
+admin_passwd_prompt_title=管理者パスワードを入力して下さい。
+admin_passwd_prompt_msg=管理者パスワード：
+admin_passwd_prompt_error=パスワードが誤っています。
+admin_passwd_button=送信
+
+
+# write
+auth_writefobidden=このページへの書き込みが認められていません
+
+# for feauture, authble wiki
+auth_readfobidden=このページの表示が認められていません
+
+# search.inc.pl
+searchpage=単語検索
+searchbutton=検索
+searchand=AND検索
+searchor=OR検索
+
+# sub date
+date_ampm_en=am,pm
+date_weekday_en=Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday
+date_weekdaylength_en=3
+date_ampm_ja=午前,午後
+date_weekday_ja=日曜日,月曜日,火曜日,水曜日,木曜日,金曜日,土曜日
+date_weekdaylength_ja=2

@@ -1,0 +1,28 @@
+#
+# PyukiWiki Resource file (English)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: versionlist.en.txt,v 1.47 2007/07/15 07:40:09 papu Exp $
+#
+
+# versionlist.inc.pl
+versionlist_plugin_title=The version list of composition files
+versionlist_plugin_pkgname=Package
+versionlist_plugin_version=Version
+versionlist_plugin_filename=CVS Filename
+versionlist_plugin_rev=CVS Revision
+versionlist_plugin_date=CVS Commit time
+versionlist_plugin_basic=Basic Module
+versionlist_plugin_module=Perl Module
+versionlist_plugin_plugin=Plugins
+versionlist_plugin_explugin=Extended Plugins
+versionlist_plugin_resource=Resource
+versionlist_plugin_skin=Skin
+versionlist_plugin_css=Style Sheet
+versionlist_plugin_js=JavaScript
+versionlist_plugin_plugintype=Plugin of type, status
+versionlist_plugin_plugintype_YukiWiki=YukiWiki Plugin
+versionlist_plugin_plugintype_PyukiWiki=PyukiWiki Plugin
+versionlist_plugin_plugintype_PyukiWikiEx_OK=PyukiWiki Extended Plugin(use)
+versionlist_plugin_plugintype_PyukiWikiEx_NG=PyukiWiki Extended Plugin(intact)
+versionlist_plugin_pluginmethod=Method
+versionlist_plugin_unknown=Unknown

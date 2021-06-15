@@ -1,0 +1,88 @@
+#
+# PyukiWiki Resource file (English)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: server.en.txt,v 1.52 2007/07/15 07:40:09 papu Exp $
+#
+
+# server.inc.pl
+server_plugin_title=Server Infomation Viewer
+server_plugin_passwd=Enter Frozen Password:
+server_plugin_passwdsubmit=Send
+
+server_plugin_infomation_button=Basic Infomation
+server_plugin_perlinfo_button=Perl Detailed Information
+server_plugin_benchmark_button=Bench Mark
+
+server_plugin_server_title=Server Infomation
+server_plugin_OSNAME=Operating System
+server_plugin_SERVER_SOFTWARE=Server Software
+server_plugin_SERVER_NAME=Server Name
+server_plugin_SERVER_PORT=Port Number
+server_plugin_SERVER_ADDR=Server IP Address
+server_plugin_DOCUMENT_ROOT=Document ROot
+server_plugin_SERVER_PROTOCOL=HTTP Protocol Version
+server_plugin_SERVER_ADMIN=Mail to Server Admin
+server_plugin_UPTIME=Uptime and Load load averages
+
+server_plugin_userhome_title=User Space Infomation
+server_plugin_USERMODE=Is it operating by user authority?((If the writing of the directory of wiki is enabled forcibly, the right result will not come out.))
+server_plugin_FLOCK=Can use flock function ?
+server_plugin_SYMLINK=Can use symlink function ?
+
+server_plugin_U_HOME=User Home Directory((It may be correctly unacquirable.))
+server_plugin_U_NAME=Possession file of User Name
+server_plugin_U_GROUP=Possession file of Group Name
+server_plugin_W_NAME=The execution user name of Web server
+server_plugin_W_GROUP=The execution group name of Web server
+
+server_plugin_pathinfo_title=Command Path Infomation
+server_plugin_PATH_PERL=perl's path
+server_plugin_PATH_SENDMAIL=sendmail's path
+server_plugin_PATH_GZIP=gzip's path
+server_plugin_PATH_ZIP=zip,unzip's path
+server_plugin_PATH_LHA=LHA's path
+server_plugin_PATH_RUBY=ruby's path
+server_plugin_PATH_PHP=php's path
+server_plugin_PATH_PYTHON=Python's path
+server_plugin_PATH_SH=shell's path
+server_plugin_PATH_NKF=nkf's path
+server_plugin_PATH_GCC=gcc's path
+server_plugin_PATH_BASE64=base64's path
+server_plugin_PATH_UU=uuencode,uudecode's path
+server_plugin_PATH_LYNX=lynx's path
+server_plugin_PATH_W3M=w3m's path
+
+server_plugin_client_title=Client Infomation
+server_plugin_REMOTE_ADDR=Client IP Address
+server_plugin_REMOTE_HOST=Client Hostname
+server_plugin_REMOTE_PORT=Client port number
+server_plugin_HTTP_USER_AGENT=Client Browser Name (user agent)
+server_plugin_HTTP_ACCEPT_LANGUAGE=Accept Language
+server_plugin_HTTP_ACCEPT_ENCODING=Accept Encoding
+
+server_plugin_request_title=Request Infomation
+server_plugin_HTTP_HOST=Request HTTP HOST
+server_plugin_REQUEST_METHOD=Request Method
+server_plugin_REQUEST_URI=Request URI
+server_plugin_SCRIPT_NAME=Script Name
+server_plugin_SCRIPT_FILENAME=Script Real Filename on server
+server_plugin_QUERY_STRING=Query String
+server_plugin_HTTP_REFERER=Referer
+server_plugin_HTTP_COOKIE=HTTP Cookie
+
+server_plugin_MATHCOUNT=Count of simple RSA operation around for 1 second
+server_plugin_PROCCOUNT=Count of process execute around for 1 second
+server_plugin_FILECOUNT=Count of File I/O execution around for 1 second
+server_plugin_REGCOUNT=Count of regexp charactor substitution around for 1 second
+
+server_plugin_perl_title=Basic Infomation
+server_plugin_PERLPATH=Setting of perl path
+server_plugin_PERLVER=Perl version
+server_plugin_64BITPERL=Perl 64 bit version or later ?
+
+
+server_plugin_perlmodule_title=The installed perlmodule
+
+server_plugin_unknown=unknown
+server_plugin_yes=Yes
+server_plugin_no=No

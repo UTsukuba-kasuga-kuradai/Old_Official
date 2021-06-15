@@ -1,0 +1,40 @@
+ #norelated
+ #setlinebreak
+ [[ML一覧>総務局/ML一覧]]
+ 
+ * Core Principle [#m7ca7b22]
+-「春日中のすべての学生とリソースのもつ可能性を最大限に引き出すための活動をする。」
++''「春日中のすべての学生とリソースのもつ可能性を最大限に引き出すための活動をする。」''
+ * wikiの移行を行いました [#h827d6e3]
+ 従来のwikiは http://www.stb.tsukuba.ac.jp/~kasuga-campus/old_member/ から参照できます。
+ 今後はこちらのwikiに情報を追加してください。
+ 加えて、各担当のお仕事に関する情報の移行作業にご協力ください！！！。
+ 詳しくは [[wikiの移行について>総務局/wikiの移行について]] をご参照ください。
+ 
+ * お知らせ欄 [#yd358bae]
+ 提案や意見を募る場合など全員に読んで欲しいような内容を更新した場合、ここにリンクを貼りましょう。もちろんMLで周知することも必要です。
+ 
+ :2015.08.26|合宿参加者へ
+ 合宿のページを更新しました。確認をお願いいたします。~
+ [[夏合宿2015:http://www.stb.tsukuba.ac.jp/~kasuga-campus/member/index.php?%E7%B7%8F%E5%8B%99%E5%B1%80%2F%E5%A4%8F%E5%90%88%E5%AE%BF2015]]
+ 
+ :2014.11.24 | メーリス送る方へ
+ メーリスはkuradai.orgのアカウントから送信して下さい。お願いします。
+ :2014.11.19 | 13年度生（特に役職がある方）へ
+ Google Driveにあるファイルは必ずwikiにもアップロードしておいて下さい。
+ （13年度生のkuradai.orgアカウントは今年度中に削除します。）
+ :2014.09.30| 春日地区学生宿舎環境改善のお願い(回答)をアップロードしました。[[宿舎アンケート>生活局/宿舎アンケート]]
+ :2014.09.09| クラ代合宿の時の写真をアップロードしました。
+ https://drive.google.com/folderview?id=0BwI3eTnQlUBZelJ2OEVEMHc4ems&usp=sharing
+ :2014.08.22| クラ代合宿の時の写真をアップロードしました。
+ https://www.dropbox.com/sh/k3argw24mphaxva/AABxlItiWFVPhJnqwrPbyDzSa#/
+ :2014.06.04 |  [[合同クラ連2014>全体/合同クラス連絡会/2014]]
+ :2014.05.18 | 各局のメーリングリストを作成しました。 [[ML一覧>総務局/ML一覧]]
+ :2014.04.26 | 情報学群クラ代顔合わせ の時の写真をアップロードしました。https://www.dropbox.com/sh/e29m0yakbqtqn78/eg5DhGx8wI
+ :2014.04.12 | pukiwikiへの移行を行いました
+ 
+ // :yyyy.mm.dd | message...
+ 
+ * カレンダー [#l3961fdd]
+ kuradai.orgのアカウントでログインしていない場合は表示されません。[[ログイン:https://accounts.google.com/AddSession?service=cl&continue=https://www.google.com/calendar/render?hl%3Dja&hl=ja]]してからご確認ください。
+ #iframe(http://www.google.com/calendar/embed?src=admin%40kuradai.org&ctz=Asia/Tokyo)

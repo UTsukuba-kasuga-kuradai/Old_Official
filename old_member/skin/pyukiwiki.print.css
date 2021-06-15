@@ -1,0 +1,76 @@
+/*@charset "Shift_JIS";*/
+/* If use japanese font, use @charset */
+/* "PyukiWiki" version 0.1.7 $$ */
+/* $Id: pyukiwiki.print.css,v 1.28 2007/07/15 07:40:09 papu Exp $ */
+/* Code=EUC-JP */
+
+@import url("pyukiwiki.default.css");
+
+a:link
+{
+	text-decoration: underline;
+}
+a:visited
+{
+	text-decoration: underline;
+}
+/*
+div#header
+{
+	display:none;
+}
+*/
+img#logo
+{
+	display:none;
+}
+div#navigator
+{
+	display:none;
+}
+td.menubar
+{
+	display:none;
+}
+div#menubar
+{
+	display:none;
+}
+/*
+div#note
+{
+	display:none;
+}
+*/
+div#attach
+{
+	display:none;
+}
+div#toolbar
+{
+	display:none;
+}
+/*
+div#lastmodified
+{
+	display:none;
+}
+*/
+div#related
+{
+	display:none;
+}
+/*
+div#footer
+{
+	display:none;
+}
+*/
+div.jumpmenu
+{
+	display:none;
+}
+div.partinfo,a.partedit
+{
+	display:none;
+}

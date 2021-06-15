@@ -1,0 +1,11 @@
+######################################################################
+# Apache resource/.htaccess for PyukiWiki
+# $Id: .htaccess,v 1.52 2007/07/15 07:40:09 papu Exp $
+# "PyukiWiki" version 0.1.7 $$
+######################################################################
+
+Order allow,deny
+Deny from all
+
+## Options can use, it is good to add the following setup.
+#Options -Indexes

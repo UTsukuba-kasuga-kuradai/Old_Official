@@ -1,0 +1,23 @@
++[[個人ページ]]
+ 
++#setlinebreak
++
++総合&size(20){&counter;};人 
++本日&size(20){&counter(today);};人 
++
++#contents
++
++
++
++*自己紹介 [#b5e67765]
++本名: 潘　秋実
++出身: 東京
++エスアド:s1511548@u.tsukuba.ac.jp
++
++
++*その他 [#y189f056]
++
++
++*コメント [#iae08561]
++#comment
++

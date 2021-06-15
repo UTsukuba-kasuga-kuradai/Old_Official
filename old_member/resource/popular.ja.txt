@@ -1,0 +1,12 @@
+#
+# PyukiWiki Resource file (Japanese EUC)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: popular.ja.txt,v 1.53 2007/07/15 07:40:09 papu Exp $
+#
+
+# popular.inc.pl
+popular_plugin_total_frame=<h5>¿Íµ¤¤Î%d·ï</h5><div>%s</div>
+popular_plugin_today_frame=<h5>º£Æü¤Î%d·ï</h5><div>%s</div>
+popular_plugin_yesterday_frame=<h5>ºòÆü¤Î%d·ï</h5><div>%s</div>
+popular_plugin_week_frame=<h5>º£½µ¤Î%d·ï</h5><div>%s</div>
+popular_plugin_lastweek_frame=<h5>Àè½µ¤Î%d·ï</h5><div>%s</div>

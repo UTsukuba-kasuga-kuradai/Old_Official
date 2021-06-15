@@ -1,0 +1,26 @@
+#
+# PyukiWiki Resource file (English)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: mailform.en.txt,v 1.5 2007/07/15 07:40:09 papu Exp $
+#
+
+# mailform.inc.pl
+mailform_plugin_mailsend=Sented
+mailform_plugin_mailconfirm=Mail Sending
+mailform_plugin_msg_title=Please confirm the content
+mailform_plugin_msg_edit=Edit of content
+mailform_plugin_btn_mailconfirm=Confirm
+mailform_plugin_btn_mailsend=Sent this
+mailform_plugin_btn_back=Back
+mailform_plugin_info_from=E-Mail:
+mailform_plugin_info_name=Your Name:
+mailform_plugin_info_subject=Subject:
+mailform_plugin_info_data=Content:
+mailform_plugin_err_to=The $::modifier_mail variable is not set. This plugin is not executed.
+mailform_plugin_err_title=Please confirm a necessary matter.
+mailform_plugin_err_from_nostr=Mail address has not been described.
+mailform_plugin_err_from_err=Mail address is illegal.
+mailform_plugin_err_noname=Name has not been described.
+mailform_plugin_err_nosubject=Name has not been described.
+mailform_plugin_err_nodata=Content has not been described.
+

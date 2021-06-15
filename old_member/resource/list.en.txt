@@ -1,0 +1,9 @@
+#
+# PyukiWiki Resource file (English)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: list.en.txt,v 1.51 2007/07/15 07:40:09 papu Exp $
+#
+
+# list.inc.pl
+list_plugin_title=List of pages
+list_plugin_otherchara=Others

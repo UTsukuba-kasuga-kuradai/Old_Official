@@ -1,0 +1,32 @@
+#
+# PyukiWiki Resource file (Japanese EUC)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: setting.ja.txt,v 1.31 2007/07/15 07:40:09 papu Exp $
+#
+
+# setting.inc.pl
+plugin_setting_title=設定
+plugin_setting_list=gzip,style,fontsize,popup,savename
+plugin_setting_button=設定変更
+
+plugin_setting_gzip=圧縮転送
+plugin_setting_gzip_check=sub { return -f "$::explugin_dir/gzip.inc.cgi"; }
+plugin_setting_gzip_list=0:なし,1:圧縮
+plugin_setting_gzip_default=1
+
+plugin_setting_style=スタイル
+plugin_setting_style_check=sub{my $d;my $c=0;if(opendir(RD,$::skin_dir)){while($d=readdir(RD)){if($d=~/^(.+)\.skin(?:\.$::lang)?\.cgi/){$c++;}}closedir(RD);}$c=$c>1 && $::use_SkinSel eq 1 ? 1 : 0;};
+plugin_setting_style_list=sub{my $d;my @list=();if(opendir(RD,$::skin_dir)){while($d=readdir(RD)){if($d=~/^(.+)\.skin(?:\.$::lang)?\.cgi/){push(@list,$1);}}closedir(RD);}@list=sort @list;};
+plugin_setting_style_default=sub{$::skin_name};
+
+plugin_setting_fontsize=記事の文字の大きさ
+plugin_setting_fontsize_list=0:通常,1:大きめ,2:小さめ
+plugin_setting_fontsize_default=0
+
+plugin_setting_savename=掲示板等の名前の保存
+plugin_setting_savename_list=0:保存しない,1:保存する
+plugin_setting_savename_default=0
+
+plugin_setting_popup=リンク先のポップアップ
+plugin_setting_popup_list=0:なし,1:ポップアップする
+plugin_setting_popup_default=sub{$::use_popup eq 0 ? 0 : 1};

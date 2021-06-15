@@ -1,0 +1,5 @@
++* 新入生歓迎会webサイト [#ce074c6d]
++http://www.stb.tsukuba.ac.jp/~kasuga-campus/shinkan/
++
++** ソースコード [#y558a874]
+ https://github.com/makky3939/klis14_freshman

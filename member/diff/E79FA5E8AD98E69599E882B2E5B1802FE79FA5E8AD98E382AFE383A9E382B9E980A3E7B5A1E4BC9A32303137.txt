@@ -1,0 +1,93 @@
+ [[全体/クラス連絡会]]
+ #contents
+ *当日 [#faf375e9]
+ 
+ **役割 [#u7fbc873]
+ -受付　　　：
+ -議事録　　：
+ -スライド　：
+ 
+ **議事録 [#x905f5fc]
+ 
+ 
+ 
+ *本資料 [#g2545ce9]
+ 
+ **完成版 [#a600fb45]
+ #ref(2017kuraren.honshiryou.pdf)
+ **赤入れ前 [#e1caa008]
+ #ref(2017kuraren.bessatu.docx)
+ #ref(2017kuraren.bessatu.pdf)
+ 期限：
+ 
+ 
+ 
+ *資料 [#w0fca1a9]
+ 
+ **完成版 [#wea959bb]
+ 
+ **赤入れ前 [#n96fdbc3]
+ #ref(2017kuraren.docx)
+ **赤入れ後 [#f6317d85]
+ #ref(2017kuraren.赤入れ.docx)
+ #ref(2017kuraren.赤入れ_2.docx)
+ #ref(2017kuraren.赤入れ_3.docx)
+ 
+ 
+ *議題 [#pe0168f0]
+ 
+ **アプリケーションの授業開設提案【】 [#aa16f431]
+ #ref(２.docx)
+ ***実施アンケート [#t2ff42e8]
+ #ref(Applicationsurvey_aoi.docx)
+ #ref(Applicationsurvey_aoi.pdf)
+ ***集計結果 [#j2146ab4]
+ #ref(Applicationsurvey.temple_aoi.xlsx)
+ #ref(Applicationsurvey_2_aoi.xlsx)
+ #ref(Applicationsurvey_3_aoi.xlsx)
+ #ref(Applicationsurvey_3_shike.xlsx)
+ 
+ ***資料赤入れ前 [#u69e8d20]
+ #ref(Applicationsurvey_result2_shike.docx)
+ #ref(Applicationsurvey_result3_shike.docx)
+ ***資料赤入れ後 [#jbdeeafe]
+ 
+ 
+ 
+ *報告 [#h87b13e8]
+ 
+ **クラ代について【吉村】 [#f0fb61aa]
+ 
+ ***アンケート結果(10月12日~18日実施) [#l156262c]
+ #ref(about-kuradai _aoi.xlsx)
+ ***資料赤入れ前 [#tf169bf7]
+ #ref(クラ連.docx)
+ 
+ ***資料赤入れ後 [#m55abe31]
+ 
+ **知的財産概論について【上田（二年）】 [#bba6b4d2]
+ 
+ ***アンケート [#z0308d84]
+ https://jp.surveymonkey.com/r/DVVYJL5
+ ***集計結果 [#ze3cc8a8]
+ ***資料赤入れ前 [#j0b6aec0]
+ ***資料赤入れ後 [#u93f0cc8]
+ #ref(chitekizaisangairon_rep_aka_uruno.docx)
+ #ref(kuraren_bessatu_tizai_ueta.xlsx)
+ 
+ **授業環境アンケートまとめ 【安田（二年）】 [#gc7024c4]
+ 
+ ***資料赤入れ前 [#y4a15b06]
+ ***資料赤入れ後 [#dee689b2]
+ #ref(kuraren_17_survey_Akiko.docx)
+ 
+ 
+-
+ *知識クラ連話し合い議事録 [#x661d8ea]
++#ref(h29_kliskyouiku_kuraren_minutes.docx)
+ 
+ **コメント [#ldb0f341]
+ 
+ #comment
+ #br
+-

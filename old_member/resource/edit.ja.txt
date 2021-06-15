@@ -1,0 +1,26 @@
+#
+# PyukiWiki Resource file (Japanese EUC)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: edit.ja.txt,v 1.53 2007/07/15 07:40:09 papu Exp $
+#
+
+# edit.inc.pl
+edit_plugin_title=の編集
+edit_plugin_helplink=テキスト整形のルールを表示する
+edit_plugin_helplink2=テキスト整形のルールを表示する（編集内容は破棄されます）
+edit_plugin_touch=タイムスタンプを更新
+edit_plugin_cantchange=このページは変更できません。
+edit_plugin_savebutton=保存する
+edit_plugin_pukiwikisavebutton=ページの更新
+edit_plugin_cancelbutton=キャンセル
+edit_plugin_createbutton=作成する
+edit_plugin_frozenbutton=凍結する
+edit_plugin_notfrozenbutton=凍結しない
+edit_plugin_frozenpassword=パスワード
+edit_plugin_previewtitle=プレビュー
+edit_plugin_previewnotice=<p>以下のプレビューを確認して、よければページ下部のボタンで保存してください。</p><hr />
+edit_plugin_previewnotice2=<p>以下のプレビューを確認して、よければボタンをクリックしてで保存してください。</p><hr />
+edit_plugin_previewempty=<p>（ページの内容は空です。保存するとこのページは<b>削除</b>されます。）</p>
+edit_plugin_previewbutton=プレビュー
+edit_plugin_template=-- 雛形とするページ --
+edit_plugin_load=読込

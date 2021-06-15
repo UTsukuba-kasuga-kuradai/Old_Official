@@ -1,0 +1,188 @@
+#
+# PyukiWiki Resource file (Japanese EUC)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: servererror.en.txt,v 1.51 2007/07/15 07:40:09 papu Exp $
+#
+
+# servererror.inc.pl
+# It referred to http://www.studyinghttp.net/status_code
+
+## common message
+servererror_plugin_commonmsg=If you think this is a server error, please contact¡¢$1[[Server Administrator>$ENV{SERVER_ADMIN}]].
+
+servererror_plugin_modifier_mail=[[Webmaster>$ENV{modifier_mail}]] or 
+servererror_plugin_rfcurl=http://www.ietf.org/rfc/rfc$1.txt
+servererror_plugin_rfcmsg=Reference:[[RFC$1>$2]]
+servererror_plugin_errormessage=Error Message:
+
+## 400 Bad Request
+servererror_plugin_400_header=Bad Request
+servererror_plugin_400_title=Bad Request
+servererror_plugin_400_msg=Your browser (or proxy) sent a request that\nthis server could not understand.
+
+## 401 Unauthorized
+servererror_plugin_401_header=Unauthorized
+servererror_plugin_401_title=Authentication required
+servererror_plugin_401_msg=This server could not verify that you are authorized to access\nthe URL "''$ENV{REDIRECT_URL}''".\nYou either supplied the wrong credentials (e.g., bad password), or your\nbrowser doesn't understand how to supply the credentials required.\n\nIn case you are allowed to request the document, please\ncheck your user-id and password and try again.
+servererror_plugin_401_rfc=2617
+
+## 402 Payment Required (
+servererror_plugin_402_header=Payment Required
+servererror_plugin_402_title=These contents are Payment Required
+servererror_plugin_402_msg=This contents of "''$ENV{REDIRECT_URL}''" is ''payment required''.
+
+## 403 Forbidden
+servererror_plugin_403_header=Forbidden
+servererror_plugin_403_title=Access forbidden
+servererror_plugin_403_msg=You don't have permission to access the requested directory or file of ''$ENV{REDIRECT_URL}''.\nThere is either no index document or the directory (or file) is read-protected.
+
+## 404 Not found
+servererror_plugin_404_header=Not found
+servererror_plugin_404_title=Object not found
+servererror_plugin_404_msg=The requested "''$ENV{REDIRECT_URL}''" was not found on this server.\n\nThe link on the [[referring page>$ENV{HTTP_REFERER}]] seems to be wrong or outdated. Please inform the author of [[that page>$ENV{HTTP_REFERER}]] about the error.\n\nIf you entered the URL manually please check your spelling and try again.
+
+## 405 Method Not Allowed
+servererror_plugin_405_header=Method Not Allowed
+servererror_plugin_405_title=Method not allowed
+servererror_plugin_405_msg=The ''$ENV{REDIRECT_REQUEST_METHOD}'' method is not allowed for the requested ''$ENV{REDIRECT_URL}''.
+
+## 406 Not Acceptable
+servererror_plugin_406_header=Not Acceptable
+servererror_plugin_406_title=No acceptable object found
+servererror_plugin_406_msg=An appropriate representation of the requested resource could not be found on this server.
+
+## 407 Proxy Authentication Required
+servererror_plugin_407_title=Proxy Authentication Required
+servererror_plugin_407_header=Proxy Authentication Required
+servererror_plugin_407_msg=This server could not verify that you are authorized to access\nthe URL "''$ENV{REDIRECT_URL}''". from Proxy Server\nYou either supplied the wrong credentials (e.g., bad password), or your\nbrowser doesn't understand how to supply the credentials required.\n\nIn case you are allowed to request the document, please\ncheck your user-id and password and try again.
+
+## 408 Request Time-out
+servererror_plugin_408_header=Request Time-out
+servererror_plugin_408_title=Request Time Out
+servererror_plugin_408_msg=The server closed the network connection because the browser didn't finish the request within the specified time.
+
+# 409 Conflict
+servererror_plugin_409_header=Conflict
+servererror_plugin_409_title=Request Conflict
+servererror_plugin_409_msg=In demanded $ENV{REDIRECT_URL}, the demand by method $ENV{REDIRECT_REQUEST_METHOD} is contradictory.
+
+## 410 Gone
+servererror_plugin_410_header=Gone
+servererror_plugin_410_title=Resource is no longer available
+servererror_plugin_410_msg=The requested "''$ENV{REDIRECT_URL}''" is no longer available on this server and there is no forwarding address.\n\nPlease inform the author of the [[referring page>$ENV{HTTP_REFERER}]] that the link is outdated.\n\nIf you followed a link from a foreign page, please contact the author of this page.
+
+## 411 Length Required
+servererror_plugin_411_header=Length Required
+servererror_plugin_411_title=Bad Content-Length
+servererror_plugin_411_msg=A request with the $ENV{REDIRECT_REQUEST_METHOD} method requires a valid Content-Length header.
+
+## 412 Precondition Failed
+servererror_plugin_412_header=Precondition Failed
+servererror_plugin_412_title=Precondition failed
+servererror_plugin_412_msg=The precondition on the request for the URL failed positive evaluation.
+
+## 413 Request Entity Too Large
+servererror_plugin_413_header=Request Entity Too Large
+servererror_plugin_413_title=Request entity too large
+servererror_plugin_413_msg=The $ENV{REDIRECT_REQUEST_METHOD} method does not allow the data transmitted, or the data volume exceeds the capacity limit.
+
+## 414 Request-URI Too Large
+servererror_plugin_414_header=Request-URI Too Large
+servererror_plugin_414_title=Submitted URI too large
+servererror_plugin_414_msg=The length of the requested URL exceeds the capacity limit for this server. The request cannot be processed.
+
+## 415 Unsupported Media Type
+servererror_plugin_415_header=Unsupported Media Type
+servererror_plugin_415_title=Unsupported media type
+servererror_plugin_415_msg=The server does not support the media type transmitted in the request.
+
+## 416 Requested range not satisfiable
+servererror_plugin_416_header=Requested range not satisfiable
+servererror_plugin_416_title=Requested range not satisfiable
+servererror_plugin_416_msg=The Range request to demanded [[URL>$ENV{REDIRECT_URL]] is inaccurate.
+servererror_plugin_416_rfc=2616
+
+## 417 Expectation Failed
+servererror_plugin_417_header=Expectation Failed
+servererror_plugin_417_title=An Expect request is not acceptable
+servererror_plugin_417_msg=The received Expect request is inaccurate, it is not acceptable with a server.
+servererror_plugin_417_rfc=2616
+
+## 418 I'm a teapot
+servererror_plugin_418_header=I'm a teapot
+servererror_plugin_418_title=The coffee of the teapot overflowed.
+servererror_plugin_418_msg=Check the details of an error by ''RFC2324 HTCPCP/1.0''.
+servererror_plugin_418_rfc=2324
+
+## 422 Unprocessable Entity
+servererror_plugin_422_header=Unprocessable Entity
+servererror_plugin_422_title=Unprocessable Entity
+servererror_plugin_422_rfc=2518
+
+## 423 Locked
+servererror_plugin_423_header=Locked
+servererror_plugin_423_title=Locked
+servererror_plugin_423_rfc=2518
+
+## 424 Failed Dependency
+servererror_plugin_424_header=Failed Dependency
+servererror_plugin_424_title=Failed Dependency
+servererror_plugin_424_rfc=2518
+
+## 426 Upgrade Required
+servererror_plugin_426_header=Upgrade Required
+servererror_plugin_426_title=No TLS, request was not able to be completed.
+servererror_plugin_426_msg=A TLS protocol is required to need encryption connection.
+servererror_plugin_426_rfc=2817
+
+## 500 Internal Server Error
+servererror_plugin_500_header=Internal Server Error
+servererror_plugin_500_title=Server Error!
+servererror_plugin_500_msg=The server encountered an internal error and was unable to complete your request.\n\nThe server encountered an internal error and was unable to complete your request. Either the server is overloaded or there was an error in a CGI script.
+
+## 501 Not Implemented
+servererror_plugin_501_header=Not Implemented
+servererror_plugin_501_title=Cannot process request
+servererror_plugin_501_msg=The server does not support the action requested by the browser.
+
+
+## 502 Bad Gateway
+servererror_plugin_502_header=Bad Gateway
+servererror_plugin_502_title=Bad Gateway
+servererror_plugin_502_msg=The proxy server received the response more unjust than an upstream server.
+
+## 503 Service Unavailable
+servererror_plugin_503_header=Service Unavailable
+servererror_plugin_503_title=Service unavailable
+servererror_plugin_503_msg=The server is temporarily unable to service yourrequest due to maintenance downtime or capacity problems. Please try again later. 
+
+## 504 Gateway Time-out
+servererror_plugin_504_header=Gateway Time-out
+servererror_plugin_504_title=Response of a gateway is not completed
+servererror_plugin_504_msg=Although the proxy server transmitted the request to the upstream server, it was not able to receive a response.
+
+## 505 HTTP Version not supported
+servererror_plugin_505_header=HTTP Version not supported
+servererror_plugin_505_title=The request HTTP protocol version cannot be used
+servererror_plugin_505_msg=The demanded HTTP protocol version was not able to be interpreted with a server.
+
+## 506 Variant Also Negotiates
+servererror_plugin_506_header=Variant Also Negotiates
+servererror_plugin_506_title=Error on internal arrangement
+servererror_plugin_506_rfc=2295
+
+## 507 Insufficient Storage
+servererror_plugin_507_header=Insufficient Storage
+servererror_plugin_507_title=Insufficient Storage
+servererror_plugin_507_rfc=2518
+
+## 510 Not Extended
+servererror_plugin_510_header=Not Extended
+servererror_plugin_510_title=The plan for requiring is not contained in the demand
+servererror_plugin_510_msg=A server cannot publish the request to which the client was extended.
+servererror_plugin_510_rfc=2774
+
+## 999 Not defined error message
+servererror_plugin_999_header=Not defined error message
+servererror_plugin_999_title=Not defined error message
+servererror_plugin_999_msg=The unknown error occurred.

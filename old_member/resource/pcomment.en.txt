@@ -1,0 +1,15 @@
+#
+# PyukiWiki Resource file (English)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: pcomment.en.txt,v 1.11 2007/07/15 07:40:09 papu Exp $
+#
+
+# pcomment.inc.pl
+pcomment_plugin_yourname=Name:
+pcomment_plugin_pcommentbutton=Post Comment
+pcomment_plugin_err=Items mentioned are insufficient.
+pcomment_plugin_msg_recent=Show recent %d comments.
+pcomment_plugin_msg_all=Go to the comment page.
+pcomment_plugin_msg_none=No comment.
+pcomment_plugin_commentpage_title=*%s's comment
+pcomment_plugin_commentpage_backlink=[[Back to %s]]

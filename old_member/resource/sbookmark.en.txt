@@ -1,0 +1,15 @@
+#
+# PyukiWiki Resource file (English)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: sbookmark.en.txt,v 1.7 2007/07/15 07:40:09 papu Exp $
+#
+
+# comment.inc.pl
+sbookmark_plugin_yourname=Name:
+sbookmark_plugin_button=Bookmark!
+sbookmark_plugin_title=Page Title:
+sbookmark_plugin_url=Page URL:
+sbookmark_plugin_comment=Comment:
+sbookmark_plugin_err=Items mentioned are insufficient.
+sbookmark_plugin_urlerr=Ignore URL
+sbookmark_plugin_urlnot=URL not found

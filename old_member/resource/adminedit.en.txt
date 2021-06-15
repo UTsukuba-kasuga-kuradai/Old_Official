@@ -1,0 +1,9 @@
+#
+# PyukiWiki Resource file (English)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: adminedit.en.txt,v 1.52 2007/07/15 07:40:09 papu Exp $
+#
+
+# adminedit.inc.pl
+adminedit_plugin_title=of Edit and  Freeze
+adminedit_plugin_passwordneeded=A password is required to freeze a page.

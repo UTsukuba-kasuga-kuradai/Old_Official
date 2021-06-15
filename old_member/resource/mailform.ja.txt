@@ -1,0 +1,26 @@
+#
+# PyukiWiki Resource file (Japanese EUC)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: mailform.ja.txt,v 1.5 2007/07/15 07:40:09 papu Exp $
+#
+
+# mailform.inc.pl
+mailform_plugin_mailsend=から送信しました
+mailform_plugin_mailconfirm=からの送信
+mailform_plugin_msg_title=内容を確認して下さい
+mailform_plugin_msg_edit=内容の編集
+mailform_plugin_btn_mailconfirm=確認
+mailform_plugin_btn_mailsend=上記の内容で送信
+mailform_plugin_btn_back=やりなおし
+mailform_plugin_info_from=メールアドレス:
+mailform_plugin_info_name=お名前:
+mailform_plugin_info_subject=表題:
+mailform_plugin_info_data=内容:
+mailform_plugin_err_to=mailform:送信先の$::modifier_mail変数が設定されていません。プラグインの実行はされません。
+mailform_plugin_err_title=必要事項を確認してください。
+mailform_plugin_err_from_nostr=メールアドレスが記載されていません。
+mailform_plugin_err_from_err=メールアドレスが不正です。
+mailform_plugin_err_noname=名前が記載されていません。
+mailform_plugin_err_nosubject=表題が記載されていません。
+mailform_plugin_err_nodata=内容が記載されていません。
+

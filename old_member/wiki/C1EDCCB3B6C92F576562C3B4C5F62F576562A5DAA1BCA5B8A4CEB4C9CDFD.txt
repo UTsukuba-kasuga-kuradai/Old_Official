@@ -1,0 +1,12 @@
+**目次 
+#contents
+
+**ページ作成方法 
+[[Webぺージガイドライン>総務局/Web担当/Webページ]]の手順でコンテンツを作成
+-外部向けWebページにアクセス
+http://www.stb.tsukuba.ac.jp/~kasuga-campus
+-IDとPasswordを入力してページを編集
+
+**リファレンス
+STBサーバマニュアル（学内限定）
+-https://www.stb.tsukuba.ac.jp:8443

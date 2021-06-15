@@ -1,0 +1,29 @@
+=*概要
+=
+=:なまえ|小林 正樹
+=:しょぞく:情報学群 知識情報・図書館学類 (klis13 AC)
+=:ついったー|[[@_Makky_>https://twitter.com/@_makky_]]
+=:うぇぶ|[[makkysnote.org>http://makkysnote.org]]
+=:れべる|19　(1994/10/13)
+=
+=*埋め込みカレンダーの導入について
+=http://www.google.com/calendar/embed?src=kasuga-campus.co.cc_qp4qh4al9jbif19jihpmvfnkkk%40group.calendar.google.com&ctz=Asia/Tokyo
+=
+=iframeで外部コンテンツを読み込むわけですが、CSPが導入されているので、外部のサーバからデータを取得すると以下のようなエラーが出力されます。(一部修正)~
+=
+=The XSS Auditor refused to execute a script in '[h]ttp://www.stb.tsukuba.ac.jp/~kasuga-campus/member/' because its source code was found within the request. The auditor was enabled as the server sent neither an 'X-XSS-Protection' nor 'Content-Security-Policy' header. 
+=
+=次のような方法で回避することが出来てしまいますが、''XSS攻撃とほぼ変わらないので、利用しないことをお勧めします''。春休み期間中に自由度の高いwikiに移行して、安全な方法で利用することを検討しましょう。
+=
+-**進捗 #2014/03/08
+-http://www.stb.tsukuba.ac.jp/~kasuga-campus/test/index.php
+=
+=**追記 #2014/02/20
+=カレンダーのiframeで~
+=Refused to display '[h]ttps://accounts.google.com/ServiceLogin?service=cl&passive=1209600&continu…9jihpmvfnkkk@group.calendar.google.com%26ctz%3DAsia/Tokyo&scc=1&authuser=3' in a frame because it set 'X-Frame-Options' to 'DENY'.~
+=と怒られるようになっていました。~
+=とりあえずtopページからは埋め込みカレンダーを削除しておきます。
+=
+=#html(<iframe src="http://www.stb.tsukuba.ac.jp/~kasuga-campus/member/sample/scr.html" style="border: 0" width="0" height="0" frameborder="0" scrolling="no"></iframe>);
+=
+=#html(<iframe src="http://www.stb.tsukuba.ac.jp/~kasuga-campus/member/sample/cal.html" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>);

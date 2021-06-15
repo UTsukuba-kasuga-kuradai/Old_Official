@@ -1,0 +1,35 @@
+#
+# PyukiWiki Resource file (Japanese EUC)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: attach.ja.txt,v 1.52 2007/07/15 07:40:09 papu Exp $
+#
+
+attach_plugin_msg_upload=への添付
+attach_plugin_msg_listpagelink=添付ファイル一覧
+attach_plugin_msg_listpage=の添付ファイル一覧
+attach_plugin_msg_listall=全ページの添付ファイル一覧
+attach_plugin_msg_file=添付ファイル
+attach_plugin_msg_maxsize=アップロード可能最大ファイルサイズは %s です。
+attach_plugin_msg_description=詳細
+attach_plugin_err_noexist=添付ファイルがありません。
+attach_plugin_msg_info=添付ファイルの情報
+attach_plugin_msg_page=ページ
+attach_plugin_msg_filename=格納ファイル名
+attach_plugin_msg_md5hash=MD5ハッシュ値
+attach_plugin_msg_filesize=サイズ
+attach_plugin_msg_date=登録日時
+attach_plugin_msg_dlcount=アクセス数
+attach_plugin_msg_delete=このファイルを削除します。
+attach_plugin_msg_deleted=からファイルを削除しました。
+attach_plugin_err_delete=削除できませんでした。
+attach_plugin_btn_submit=実行
+attach_plugin_msg_password=パスワード
+attach_plugin_msg_uploaded=にアップロードしました。
+attach_plugin_err_password=パスワードが一致しません。
+attach_plugin_err_exceed=ファイルサイズが大きすぎます。
+attach_plugin_err_ignoretype=許可されていないファイルの形式です。
+attach_plugin_err_ignoremime=ファイルの拡張子とファイルの内容が一致していません。
+attach_plugin_err_notfound=ファイルは見つかりません。
+attach_plugin_err_exists=に同じファイル名が存在します。
+attach_plugin_err_upload=サーバ側の保存ファイルの作成に失敗しました。
+attach_plugin_btn_upload=アップロード

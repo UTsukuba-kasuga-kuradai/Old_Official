@@ -1,0 +1,24 @@
++* 創成教育局 [#u3df21f5]
+ 
++#setlinebreak(on)
++
++#contents
++** 議事録 [#db22caab]
++[[議事録>創成教育局/議事録]]
++
++** Googleドライブ [#x0dd983f]
++[[創成教育局のドライブ:https://drive.google.com/open?id=0BzuV2DpmvQr8dG01Ul9rZ0tuUWc&authuser=1]]
++**授業評価アンケート [#b755113b]
++[[ドライブ:https://drive.google.com/open?id=0BzuV2DpmvQr8LUhvNEJBYnpLbGc&authuser=1]]
++
++[[平賀先生のメール>創成教育局/150528メール]]
++
++***春ABの配る授業 [#jf23940a]
++- 1年生 6/17 フレセミ
++- 2年生 6/23 認知科学
++**創成クラ連会 [#g103d8ca]
++
++[[創成クラ連2015>http://www.stb.tsukuba.ac.jp/~kasuga-campus/member/index.php?%E5%89%B5%E6%88%90%E6%95%99%E8%82%B2%E5%B1%80%2F%E5%89%B5%E6%88%90%E3%82%AF%E3%83%A9%E3%82%B9%E9%80%A3%E7%B5%A1%E4%BC%9A2015]]
++**アーカイブ [#i61584e6]
++- [[2014>創成教育局/2014]]
++

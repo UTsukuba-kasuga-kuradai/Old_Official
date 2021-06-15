@@ -1,0 +1,6 @@
+ConflictChecker=Thu Jan 20 15:21:30 2011
+CreateTime=1295427394
+LastModifiedTime=1295504490
+UpdateTime=1295504490
+IsFrozen=0
+LastModified=Thu Jan 20 15:21:30 2011

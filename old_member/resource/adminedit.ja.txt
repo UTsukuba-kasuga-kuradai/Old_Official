@@ -1,0 +1,9 @@
+#
+# PyukiWiki Resource file (Japanese EUC)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: adminedit.ja.txt,v 1.52 2007/07/15 07:40:09 papu Exp $
+#
+
+# adminedit.inc.pl
+adminedit_plugin_title=の編集・凍結
+adminedit_plugin_passwordneeded=ページを凍結するにはパスワードが必要です。

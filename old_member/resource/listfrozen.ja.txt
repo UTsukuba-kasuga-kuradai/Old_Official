@@ -1,0 +1,27 @@
+#
+# PyukiWiki Resource file (Japanese EUC)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: listfrozen.ja.txt,v 1.46 2007/07/15 07:40:09 papu Exp $
+#
+
+# listfrozen.inc.pl
+listfrozen_plugin_title=一括凍結・凍結解除
+listfrozen_plugin_msg=凍結するページはチェックを入れて下さい。<br />凍結解除するページはチェックを外して下さい。
+listfrozen_plugin_btn_submit=実行
+listfrozen_plugin_dir=--以下の階層のみ表示する--
+listfrozen_plugin_btn_view=表示
+listfrozen_plugin_btn_checkon=すべてチェック
+listfrozen_plugin_btn_checkoff=すべて解除
+listfrozen_plugin_btn_return=戻る
+listfrozen_plugin_sort_date=日付順で並び替え
+listfrozen_plugin_sort_name=ページ名順で並び替え
+listfrozen_plugin_sort_date_reverse=日付順で並び替え（逆順）
+listfrozen_plugin_sort_name_reverse=ページ名順で並び替え（逆順）
+listfrozen_plugin_exec_newname=新規ページです。
+listfrozen_plugin_exec_delete=削除されました。
+listfrozen_plugin_exec_unfrozen=凍結されていません
+listfrozen_plugin_exec_frozen=凍結されています。
+listfrozen_plugin_exec_unfrozen_change=<strong>凍結解除しました。</strong>
+listfrozen_plugin_exec_frozen_change=<strong>凍結しました。</strong>
+listfrozen_plugin_execmsg=実行しました。下記のログにて実行結果を確認して下さい。
+

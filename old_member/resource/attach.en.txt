@@ -1,0 +1,35 @@
+#
+# PyukiWiki Resource file (English)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: attach.en.txt,v 1.52 2007/07/15 07:40:09 papu Exp $
+#
+
+attach_plugin_msg_upload=of upload file
+attach_plugin_msg_listpagelink=Attach File list
+attach_plugin_msg_listpage=of attached file
+attach_plugin_msg_listall=Attach File list at All Page
+attach_plugin_msg_file=Attach file
+attach_plugin_msg_maxsize=Max File Size is %s
+attach_plugin_msg_description=Discription
+attach_plugin_err_noexist=File does not exist.
+attach_plugin_msg_info=Infomation
+attach_plugin_msg_page=Page
+attach_plugin_msg_filename=Regist File Name
+attach_plugin_msg_md5hash=MD5 Hash Value
+attach_plugin_msg_filesize=Size
+attach_plugin_msg_date=Date
+attach_plugin_msg_dlcount=Access Count
+attach_plugin_msg_delete=Is Delete?
+attach_plugin_msg_deleted=file deleted.
+attach_plugin_err_delete=Can't Delete
+attach_plugin_btn_submit=Submit
+attach_plugin_msg_password=Password
+attach_plugin_msg_uploaded=Uploaded
+attach_plugin_err_password=Iligal Password
+attach_plugin_err_exceed=File Size too big
+attach_plugin_err_ignoretype=Not permitted file type
+attach_plugin_err_ignoremime=Not in agreement of file extention and contents.
+attach_plugin_err_notfound=File not found
+attach_plugin_err_exists=Exist same name, Upload is stopped.
+attach_plugin_err_upload=Creation of the preservation file by the side of a server went wrong.
+attach_plugin_btn_upload=Upload

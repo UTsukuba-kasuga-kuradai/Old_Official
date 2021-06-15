@@ -1,0 +1,130 @@
+[[全体/クラス連絡会]]
+#contents
+*当日役割 [#ida30238]
+-受付
+　佐藤，岡崎
+-議事録
+　藤田，渡辺
+#ref(知識教員名簿.xlsx)
+-スライド
+　久保川
+
+*当日議事録 [#n032558b]
+#ref(2016_知識クラス連絡会　議事録_fumiya.docx)
+#ref(2016_知識クラス連絡会議事録_sato.docx)
+*本番用資料 [#h62eb28b]
+#ref(2016_hon.pdf)
+#ref(2016aka_betu.pdf)
+
+*最終赤入れ [#ef3dabc5]
+期限：12月1日の13：00まで&br;
+最後の赤入れです。期間がかなり短いのですが、赤入れをして問題点を見つけたら、コメント欄でコメントをお願いします。&br;
+どうかよろしくお願いします！
+#ref(2016akaire_honn.pdf)
+#ref(2016aka_betu.pdf)
+
+*読み合わせ資料 [#k9394e8a]
+#ref(2016aka_betu.pdf)
+#ref(16hon.docx)
+
+*知識クラ連話し合い議事録 [#s371aead]
+
+*事前打ち合わせ(11/16赤入れ後) [#uaaa8cc1]
+#ref(gidai_bessatu_ito_aka.docx)
+#ref(english_aoi_aka.docx)
+#ref(gidai aka ueta.docx)
+#ref(honsiryo_kankyo_anke2.docx)
+
+*赤入れ待ち資料 [#j1d619ae]
+#ref(2016 年度知識クラ連会　本資料 ueta.docx)
+#ref(専門英語Aの授業環境改善について.docx)
+#ref(gidai_bessatu_ito.docx)
+#ref(honsiryo_kankyo_anke1.docx)
+#ref(english_betu_yano.docx)
+
+**議題　クラ連会について？　 [#d19e419d]
+
+**授業環境アンケート関連 [#q24eaf4e]
+#ref(2016springAB_enquetekijutu_matome.docx)
+
+**大説関連 [#pf3a817e]
+
+**専門英語A関連 [#we1a3bd7]
+
+**コメントしたよ報告などはこちら↓ [#ab96c2bf]
+- 知識3年宮崎です。「近年、知識クラ連で取り扱う議題を決定することが困難になりつつある。この状況を うけ、クラ代は議題の決定方法を見直し、報告する。 」というように"報告する"と書いてあるのに議題の項目にあるのがひっかかります。報告項目に移すか、議題であると明確に分かるような問題提起の仕方をしたほうがいいと思います。 -- [[宮崎]] &new{2016-11-29 (火) 14:14:36};
+
+#comment
+#br
+
+*議題 [#ff6334a7]
+
+**クラ連会について？【担当：上田(1年)、矢澤(1年)、伊藤(2年)、平井(2年)】 [#a4113f82]
+
+-アンケート
+#ref(授業内容、クラス連絡会に関するアンケート.pdf)
+
+
+-集計結果
+#ref(kurarenn_1年all_ueta.xlsx)
+#ref(kuraren_3_all.xlsx)
+#ref(kurarenn_4nen_fumiya.xlsx)
+#ref(kurarenn_t_2年後半_aoi.xlsx)
+#ref(1年後半.xlsx)
+#ref(kurarenn_1年前半_kobayashi.xlsx)
+#ref(kurarenn_4nen1-40.xlsx.xlsx)
+#ref(kurarenn_system_fumiya.xlsx)
+--テンプレ
+#ref(kurarenn_t.xlsx)
+***軽くまとめ [#s00c3a5e]
+---クラ連会の認知度&br;
+知っている：36&br;
+名前だけ：115&br;
+知らない：89&br;
+&br;
+---必要性&br;
+必要：157&br;
+毎年は必要ない：50&br;
+必要ない：17&br;
+&br;
+---授業の改善&br;
+ある：27&br;
+ない：163&br;
+&br;
+---新しい授業&br;
+ほしい：69&br;
+ほしくない：112&br;
+*クラ連報告関連 [#md6e45c9]
+
+**授業環境アンケートまとめ 【安田(1年)、小林(2年)】 [#vb69f734]
+
+**専門英語A【吉村(1年)、渡辺(1年)、矢野(2年)】 [#s07d796b]
+
+-アンケート
+#ref(englishA.xls)
+
+
+-集計結果
+
+--テンプレ
+#ref(englishA_t.xlsx)
+#ref(englishA_t_1_10.xlsx)
+#ref(englishA_t_11_19.xlsx)
+#ref(englishA_t_20-39.xlsx)
+#ref(englishA_t_40-57.xlsx)
+
+--1~57までの集計結果
+#ref(englishA_all.xlsx)
+--集計の表
+#ref(englishA_hyou.xlsx)
+
+**大学説明会に [#q8f347fb]
+関する報告 [#j12d2a66]
+
+*コメント [#i3465d56]
+
+#comment
+#br
+
+総合&size(20){&counter;};人 
+今日&size(20){&counter(today);};人

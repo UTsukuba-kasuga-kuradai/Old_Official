@@ -1,0 +1,5 @@
+* クラ代webサイト [#bab78718]
+http://www.stb.tsukuba.ac.jp/~kasuga-campus/
+
+** ソースコード [#m838e5e2]
+https://github.com/makky3939/kasuga-web

@@ -1,0 +1,52 @@
+ [[創成教育局]]
+-
+ #setlinebreak
+ 
+ #contents
+ 
++** 議事録 [#h26fc480]
++
++- [[議事録>../議事録]]
++** 資料 [#d3f43e9f]
++
+ - 春学期Aモジュールアンケート
+ 授業評価アンケートdriveリンク: https://docs.google.com/document/d/1p1df8LtnVqXFd01fUuCj_e8K4WhFk8wNKEC81Qv-qDw/edit?usp=sharing
+ 授業評価アンケート集計結果書込み用driveリンク:https://docs.google.com/a/kasuga-campus.co.cc/spreadsheets/d/1cLk_EUVSLM7xC9CsMUfGDFxUV5U2sonGc3K_Hy35UQw/edit?usp=sharing
+ - [[一年第二回春A授業評価アンケート(中止):http://www.stb.tsukuba.ac.jp/~kasuga-campus/member/index.php?%E4%B8%80%E5%B9%B4%E6%98%A5A%E7%AC%AC%E4%BA%8C%E5%9B%9E%E6%8E%88%E6%A5%AD%E8%A9%95%E4%BE%A1%E3%82%A2%E3%83%B3%E3%82%B1%E3%83%BC%E3%83%88]]
+ - 年間アンケート
+ ** 年間  [#d3f43e9f]
+ 
+-- [[2014>./2014]]
++- [[2014>../2014]]
+ ** クラ連会  [#d3f43e9f]
+ 
+ ** 春学期Aモジュールアンケート [#d3f43e9f]
+ 
+ - 進捗
+ -- １年赤入れ完了
+ 
+ - 計画
+ -- 5/7 配布用意
+ -- 5/14 集計
+ -- 5/21 集計結果発表
+ 
++- [[2014>./2014]]
++
+ ** 年間アンケート [#d3f43e9f]
+ 
+ ** その他 [#d3f43e9f]
+ 
+-- [[カリキュラム問題>./カリキュラム問題]]
+-- [[創立目的>./創立目的]]
++- [[カリキュラム問題>../カリキュラム問題]]
++- [[創立目的>../創立目的]]
+ 
+ **memo [#f70e1280]
+ -情報社会と法制度　知識教育局と合同で合同クラス連絡会で取り扱う可能性　【要準備】
+ -局長は4/23に発表し合った宿題のまとめを一応作ってください
+ 
+ ** 渉外（先生との軋轢とか）  [#d3f43e9f]
+ 
+ - [[メールでのやりとり>../メールでのやりとり]]
+ 
++

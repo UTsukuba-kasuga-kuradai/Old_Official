@@ -1,0 +1,12 @@
+#
+# PyukiWiki Resource file (English)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: popular.en.txt,v 1.53 2007/07/15 07:40:09 papu Exp $
+#
+
+# popular.inc.pl
+popular_plugin_total_frame=<h5>Popular(%d)</h5><div>%s</div>
+popular_plugin_today_frame=<h5>Today's(%d)</h5><div>%s</div>
+popular_plugin_yesterday_frame=<h5>Yesterday's(%d)</h5><div>%s</div>
+popular_plugin_week_frame=<h5>This Week's(%d)</h5><div>%s</div>
+popular_plugin_lastweek_frame=<h5>Last Week's(%d)</h5><div>%s</div>

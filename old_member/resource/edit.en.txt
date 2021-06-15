@@ -1,0 +1,27 @@
+#
+# PyukiWiki Resource file (English)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: edit.en.txt,v 1.53 2007/07/15 07:40:09 papu Exp $
+#
+
+# edit.inc.pl
+edit_plugin_title=Edit
+edit_plugin_helplink=View Text Formatting Rules
+edit_plugin_touch=Update timestamp
+edit_plugin_cantchange=Can not modify this page.
+edit_plugin_savebutton=Save
+edit_plugin_pukiwikisavebutton=Update
+edit_plugin_cancelbutton=Cancel
+edit_plugin_createbutton=Create
+edit_plugin_frozenbutton=Freeze
+edit_plugin_notfrozenbutton=Melt
+edit_plugin_frozenpassword=Password
+edit_plugin_previewtitle=Preview
+edit_plugin_previewnotice=<p>To confirm the changes, click the button at the bottom of the page</p><hr />
+edit_plugin_previewnotice2=<p>To confirm the changes, click the button</p><hr />
+#previewnotice=<p>If you ok then save.</p><hr />
+edit_plugin_previewempty=<p>(The contents of the page are empty. Updating deletes this page.)</p>
+#previewempty=<p>(Page is empty then <b>delete</b> this page.)</p>
+edit_plugin_previewbutton=Preview
+edit_plugin_template=-- Use page as template --
+edit_plugin_load=Load

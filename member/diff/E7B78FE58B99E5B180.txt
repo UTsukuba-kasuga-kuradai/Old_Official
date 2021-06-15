@@ -1,0 +1,43 @@
+ * 総務局 [#w6f579c1]
+ 
+ - [[議事録>./議事録]]
+ - [[目安箱>./目安箱]]
+-- [[夏合宿>./夏合宿]]
++- [[夏合宿2014>./夏合宿]]
+ - [[夏合宿2015>./夏合宿2015]]
+ 
+ ** 合同クラ連関連資料 [#y174d81d]
+ 
+ -本資料
+ --2014-06-04 暫定版
+ #ref(2014新歓議題.doc)
+ 
+ -アンケート集計結果
+ #ref(KL_Enquete.xlsx)
+ --シートごとにklis、mast、総計を分けています
+ --メモ：klis(送付済み群)とmast(未送付群)の比較をする
+ 
+ -アンケート集計用紙テンプレ
+ #ref(KL_Enquete klis.xlsx)
+ --ファイル名とはうらはらに知識・創成共通です
+ ** PAL担当 [#e032801d]
+ 
+ [[PALアーカイブ]]
+ ** Web担当 [#m3de5995]
+ - https://drive.google.com/a/kuradai.org/?usp=docs_web#folders/0BzuV2DpmvQr8dFZzRjNWZWFuRkE
+ - [[クラ代webサイト>./クラ代webサイト]]
+ - [[新入生歓迎会webサイト>./新入生歓迎会webサイト]]
+ - [[GoogleApps>./GoogleApps]]
+ - [[kuradai.org>./kuradai.org]]
+ - [[STBサーバーについて>./STBサーバーについて]]
+ - [[目安箱のweb化>./目安箱のweb化]]
+ - [[クラ代室PC>./クラ代室PC]]
+ 
+ *** Wiki [#dc32bcb9]
+ - [[クラ代wikiについて>./クラ代wikiについて]]
+ - [[pukiwiki>./pukiwiki]]
+ - [[バックアップ>./バックアップ]]
+ - [[wikiの移行について>./wikiの移行について]]
+ 
+ *** ML [#wed1c51c]
+ - [[ML一覧>./ML一覧]]

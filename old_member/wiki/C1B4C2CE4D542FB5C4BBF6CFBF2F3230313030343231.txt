@@ -1,0 +1,7 @@
+[[全体MT/議事録]]
+*資料 
+
+&ref{1学期第3回全体MT.doc};
+#comment
+
+#article

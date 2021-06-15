@@ -1,0 +1,19 @@
+=#setlinebreak
+=
+=//&size(10){Last Update：&lastmod;}; &br;
+=今まで来た人&size(30){&counter;};人 
+=今日来た人&size(30){&counter(today);};人 
+=//%%現在の暇人たち&size(30){&online;};人 %%
+=
+=
+=
+=
+=*連絡先
+=--kakunyamあっとgmail.com（あっと＝＠）
+=--twitter@__kamina
+=--電話：090-5174-6814
+=--skype:kazkin86 / かずきん。
+=
+=*他
+=--みかん食いたい
++--彼女降ってこないかな...

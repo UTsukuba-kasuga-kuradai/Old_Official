@@ -1,0 +1,17 @@
+=１年次知識４クラ　
+=
+-name*ほんだみなみ
++name*ほんだみなみ　みなみ
+=
+=birth*1992/12/17
+=
+-from*長崎　佐世保
++from*長崎　佐世保北高等学校
+=
+=favorite*UVER brzi ルシュカ　neko
+=
+=
+=twitter*@konnovo02
+=mixi*ミナミ
+=
+=mail*fgzkuver@softbank.ne.jp

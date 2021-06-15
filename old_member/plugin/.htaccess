@@ -1,0 +1,16 @@
+######################################################################
+# Apache plugin/.htaccess for PyukiWiki
+# $Id: .htaccess,v 1.52 2007/07/15 07:40:09 papu Exp $
+# "PyukiWiki" version 0.1.7 $$
+######################################################################
+
+Order allow,deny
+Deny from all
+
+## Options can use, it is good to add the following setup.
+#Options -Indexes -ExecCGI
+
+## In the case of public plug-in, it is good to set up in this way.
+#<FilesMatch "\.(inc\.pl|pl)$">
+#</FilesMatch>
+#AddType text/plain .pl

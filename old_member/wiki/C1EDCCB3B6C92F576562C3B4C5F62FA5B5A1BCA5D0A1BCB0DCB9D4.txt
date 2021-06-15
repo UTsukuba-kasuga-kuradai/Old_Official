@@ -1,0 +1,143 @@
+*サーバー移行 
+
+**概要 
+www.kasuga-campus.jpからSTBサーバーへ乗り換えます
+
+**移行に伴う変更点 
+-STBサーバーではPHPの実行環境がありません。
+これまで使用していたConcrete5やPukiwikiが使えません。&br;
+→外部向けWebページ、内部向けWikiにはPyukiwikiを使用
+
+**Pukiwikiとは 
+Pukiwikiとの互換を目指したperlで実装されたWikiクローン&br;
+公式サイト：http://nekyo.qp.land.to/
+-使用するバージョン
+pyukiwiki-0.1.7-full(EUC-JP)
+
+**移行手順 
+-変換スクリプトを使用し、データを変換
+-STBサーバー上でテスト
+--予定地：http://www.stb.tsukuba.ac.jp/~kasuga-campus/member/
+-バクレポート
+-スクリプト修正 ←イマココ
+-移行作業（１時間程度）
+
+**作業メモ（予定） 
+-ドキュメント変換スクリプト(Ruby)
+--実装済機能
+---文字コード変換：UTF-8 -> EUC&br;
+---「」の削除
+---行頭の「~」の削除
+---#topicpathの削除
+---相対パス->絶対パス
+---アンカーの削除
+--ソースコード
+コードの汚さは気にしない。動けばよし
+  require 'kconv'
+  require 'cgi'
+  
+  def debug(str)
+    puts str
+  end
+  
+  Dir.foreach("./utf8/") {|utf8_filename|
+    euc_filename = ""
+    if File.file?("./utf8/"+utf8_filename)
+      # convert filename
+      utf8_binary = utf8_filename.scan(/([0-9A-F]{2})/).map{|char| "%"+char[0]}.join
+      utf8_string = CGI.unescape(utf8_binary)
+      utf8_string.toeuc.split(//e).each{|char|
+        if char.length == 2
+          euc_filename << format("%X", char[0])+format("%X", char[1])
+        else
+          euc_filename << format("%X", char[0])
+        end
+      }
+      euc_filename << ".txt"
+  
+      # open old file (utf-8)
+      File::open("./utf8/"+utf8_filename) {|utf8_file|
+        # open new file (euc)
+        File::open("./euc/"+euc_filename, 'w'){|euc_file|
+          utf8_file.each {|line| 
+            # skip #topicpath
+            unless line =~ /^#topicpath/
+              # delete 
+              if line =~ //
+                debug(line+" -> "+line.sub(//, ""))
+                line.sub!(//, "")
+              end
+              # delete ~
+              if line =~ /^~/
+                debug(line+" -> "+line.sub(/^~/, ""))
+                line.sub!(/^~/, "")
+              end
+              # delete anchor
+              if line =~ /\[\#.+\]$/
+                debug(line+" -> "+line.sub(/\[\#.+\]$/, ""))
+                line.sub!(/\[\#.+\]$/, "")
+              end
+              # [[./]] -> [[pagename/]]
+              if line =~ /\[\[.+\.\/.+\]\]/
+                debug(line+" -> "+line.sub(/\.\//, euc_filename.sub(/\.txt/, "")+"/"))
+                line.sub!(/\.\//, utf8_string+"/") #.sub(/\.txt/, "")+"/")
+              end
+              # convert encoding utf8 to euc-jp
+              euc_file.print line.toeuc
+            else
+              debug("line: "+line+" was skipped.") 
+            end
+          }
+        }
+      }
+    end
+  }
+
+-添付ファイル名変換スクリプト(Ruby)
+--実装済機能
+---ファイル名の文字コード変換：UTF-8 -> EUC&br;
+--ソースコード
+  require 'kconv'
+  require 'cgi'
+  
+  def convert(utf8)    
+    euc = ""
+    utf8_binary = utf8.scan(/([0-9A-F]{2})/).map{|char| "%"+char[0]}.join
+    utf8_string = CGI.unescape(utf8_binary)
+    utf8_string.toeuc.split(//e).each{|char|
+      if char.length == 2
+        euc << format("%X", char[0])+format("%X", char[1])
+      else
+        euc << format("%X", char[0])
+      end
+    }
+    return euc
+  end
+  
+  Dir.foreach("./utf8/") {|utf8_filename|
+    if File.file?("./utf8/"+utf8_filename)
+      unless utf8_filename =~ /.log$/ || utf8_filename =~ /.html$/ || utf8_filename =~ /.htaccess$/ 
+        # convert filename
+        euc_filename = convert(utf8_filename.sub(/\_.+/, "")) + "_" + convert(utf8_filename.sub(/.+\_/, ""))
+  
+        # rename filename
+        File.rename("./utf8/"+utf8_filename, "./euc/"+euc_filename)
+      end
+    end
+  }
+
+-クラ代外部向けWebページ
+--URL：http://www.stb.tsukuba.ac.jp/~kasuga-campus/
+--設定
+---全てのネットワークから閲覧可能
+---ページの新規作成・編集、ファイルの添付・削除にパスワードを設定
+---レイアウトをそれっぽく設定
+-クラ代内部向けWiki
+--設定
+---Basic認証を設定
+---pukiwikiのデータの文字コードをEUCに変換して移行
+--URL：http://www.stb.tsukuba.ac.jp/~kasuga-campus/member/
+-新歓内部向けWiki
+--URL：http://www.stb.tsukuba.ac.jp/~kasuga-campus/shinkan/
+--設定
+---Basic認証を設定

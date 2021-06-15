@@ -1,0 +1,32 @@
+#
+# PyukiWiki Resource file (Japanese EUC)
+# "PyukiWiki" version 0.1.7 $$
+# $Id: rename.ja.txt,v 1.49 2007/07/15 07:40:09 papu Exp $
+#
+
+# rename.inc.pl
+rename_plugin_title=リネーム
+rename_plugin_err=<p>エラー:%s</p>
+rename_plugin_err_nomatch=マッチするページがありません。
+rename_plugin_err_notvalid=リネーム後のページ名が正しくありません。
+rename_plugin_err_adminpass=管理者パスワードが正しくありません。
+rename_plugin_err_notpage=%sはページ名ではありません。
+rename_plugin_err_norename=%sをリネームすることはできません。
+rename_plugin_err_already=ページがすでに存在します。:%s
+rename_plugin_err_already_below=以下のファイルがすでに存在します。
+rename_plugin_msg_title=ページ名の変更
+rename_plugin_msg_page=変更元ページを指定
+rename_plugin_msg_regex=正規表現で置換
+rename_plugin_msg_related=関連ページ
+rename_plugin_msg_do_related=関連ページもリネームする
+rename_plugin_msg_rename=%sの名前を変更します。
+rename_plugin_msg_oldname=現在の名前
+rename_plugin_msg_newname=新しい名前
+rename_plugin_msg_adminpass=管理者パスワード
+rename_plugin_msg_arrow=→
+rename_plugin_msg_exist_none=そのページを処理しない
+rename_plugin_msg_exist_overwrite=そのファイルを上書きする
+rename_plugin_msg_confirm=以下のファイルをリネームします。
+rename_plugin_msg_result=以下のファイルを上書きしました。
+rename_plugin_btn_submit=実行
+rename_plugin_btn_next=次へ
